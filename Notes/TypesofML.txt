@@ -1,0 +1,27 @@
+ML
+┃ ┣ Rainforcement
+┃ ┣ Semisupervised
+┃ ┣ Supervised
+┃ ┃ ┣ Classification
+┃ ┃ ┗ Regration
+┃ ┗ Unsupervised
+┃ ┃ ┣ Anatomy determination
+┃ ┃ ┣ Assosiation
+┃ ┃ ┣ Clustring
+┃ ┃ ┗ Dimention REduction
+
+NOTE: data is primerily of 2 types
+            1. numeric (e.g. age,wt)
+            2. catagoric    (e.g. gender,yes/no question)
+
+## Supervised:
+---
+We have to establish a relation between input Column and output column to predict some Other Output columns for the given input columns.
+- Classification
+If the output column is in the category data format then it is called as Classification.
+- Regration
+If the output column is in numeric data format then it is called regression.
+
+## Unsupervised:
+---
+We have only input columns we do not have the output columns In this case.

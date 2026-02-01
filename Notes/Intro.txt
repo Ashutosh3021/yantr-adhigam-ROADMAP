@@ -1,0 +1,22 @@
+ML is a field of computer science that used statistical teqniques Siba to yield the system ability to learn with data without data being Please explicitly programmed
+
+# traditional way:
+ref: Notes\images\TraditionalWay.png
+
+# ML way:
+ref: Notes\images\MLWay.png
+
+use cases of ML:
+- for complex data set 
+- infinitely many switch cases
+- Data mining 
+
+AI was once thought to me a brach of [expert system]
+ref:Notes\images\ExpertSystem.png
+
+[ai] v/s [ml] v/s [dl] v/s [ds]
+ref: Notes\images\AI vs ML vs DL vs DS.png
+
+nural network: Notes\images\Nuralnetwork.png
+
+with data the prformence of a DL model increases but other algo. becomes nearly same after a spot.
