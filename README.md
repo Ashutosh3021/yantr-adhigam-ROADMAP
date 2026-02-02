@@ -12,4 +12,4 @@ These are the absolute minimum beyond the bare minimum.
     4. Seaborn      [X]
 ---
 #### phase 1.2 (Basics of ML the [WHY-HOW-WHAT] ) [X]
-#### phase 1.3 (Maths for ML [Link Text](https://github.com/Ashutosh3021/Ganit-For-ML-)) []
+#### phase 1.3 (Maths for ML [Repo Link(Don't try to be a Mathmatician)](https://github.com/Ashutosh3021/Ganit-For-ML-)) []
