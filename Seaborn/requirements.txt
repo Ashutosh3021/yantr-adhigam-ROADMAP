@@ -1,0 +1,10 @@
+# Required packages for Seaborn Tutorial
+seaborn>=0.11.0
+matplotlib>=3.3.0
+pandas>=1.2.0
+numpy>=1.20.0
+jupyter>=1.0.0
+
+# Optional but recommended for enhanced functionality
+scipy>=1.6.0
+statsmodels>=0.12.0
