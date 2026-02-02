@@ -9,6 +9,6 @@ These are the absolute minimum beyond the bare minimum.
     1. NumPy        [X]  
     2. Pandas       [X]  
     3. Matplotlib   [X]
-    4. Seaborn
+    4. Seaborn      [X]
 ---
 #### phase 1.2 (Basics of ML the [WHY-HOW-WHAT] ) [X]
