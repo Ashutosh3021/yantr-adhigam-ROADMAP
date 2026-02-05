@@ -1,0 +1,4 @@
+# to remove the files from git tracking, but keep them in the local directory
+# for example, if you want to ignore the ".conda" folder, you can add the following line to your .gitignore file
+.conda/ 
+# using conda is not optional.
