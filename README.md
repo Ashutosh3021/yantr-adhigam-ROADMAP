@@ -25,7 +25,7 @@ These are the absolute minimum beyond the bare minimum.
 Now The Game Begains ☕
 
 #### phase 2.1  (Data Sources)
-    1. SQL                                       []
+    1. SQL                                       ✅
     2. NO SQL                                    []
     3. WORKING OF API,MOBILE APPS,INTERNET,IoT   []
     4. DATA FRAMES                               []
