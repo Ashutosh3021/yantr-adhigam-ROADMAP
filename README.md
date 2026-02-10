@@ -1,4 +1,4 @@
-# I Will Document My Full ML Journey From the Basics. I am not including Pandas and NumPy as learning topics, since they are the bare minimum requirements.vEverything else will be documented here so no one else has to suffer through tutorial hell.
+# I Will Document My Full ML Journey From the Basics. I am not including Pandas and NumPy as learning topics, since they are the bare minimum requirements.vEverything else will be documented here so no one else has to suffer through tutorial hell...
 ---
 
 ## Phase 1
