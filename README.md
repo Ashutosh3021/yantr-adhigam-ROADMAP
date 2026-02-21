@@ -39,3 +39,4 @@ Now The Game Begains ☕
 
 ## Phase 3
 ### 1st boss fight 👺
+#### be stuck
