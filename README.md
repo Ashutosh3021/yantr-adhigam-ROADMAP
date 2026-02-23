@@ -39,4 +39,4 @@ Now The Game Begains ☕
 
 ## Phase 3
 ### 1st boss fight 👺
-#### be stuck
+*the data might not available always so we can use API to scrap data we will use a scrapper to scrap the data from the api and manupulate that*
