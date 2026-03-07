@@ -42,3 +42,4 @@ Now The Game Begains ☕
 *the data might not available always so we can use API to scrap data we will use a scrapper to scrap the data from the api and manupulate that*
 - from API
 - from WEB SCRAPPING
+- Understanding of DATA
