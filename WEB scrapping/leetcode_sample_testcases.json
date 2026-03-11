@@ -1,0 +1,5502 @@
+{
+  "two-sum": {
+    "title": "Two Sum",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "nums = [2,7,11,15], target = 9",
+        "output": "[0,1]"
+      },
+      {
+        "input": "nums = [3,2,4], target = 6",
+        "output": "[1,2]"
+      },
+      {
+        "input": "nums = [3,3], target = 6",
+        "output": "[0,1]"
+      }
+    ]
+  },
+  "add-two-numbers": {
+    "title": "Add Two Numbers",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "l1 = [2,4,3], l2 = [5,6,4]",
+        "output": "[7,0,8]"
+      },
+      {
+        "input": "l1 = [0], l2 = [0]",
+        "output": "[0]"
+      },
+      {
+        "input": "l1 = [9,9,9,9,9,9,9], l2 = [9,9,9,9]",
+        "output": "[8,9,9,9,0,0,0,1]"
+      }
+    ]
+  },
+  "longest-substring-without-repeating-characters": {
+    "title": "Longest Substring Without Repeating Characters",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "s = \"abcabcbb\"",
+        "output": "3"
+      },
+      {
+        "input": "s = \"bbbbb\"",
+        "output": "1"
+      },
+      {
+        "input": "s = \"pwwkew\"",
+        "output": "3"
+      }
+    ]
+  },
+  "median-of-two-sorted-arrays": {
+    "title": "Median of Two Sorted Arrays",
+    "difficulty": "Hard",
+    "testcases": [
+      {
+        "input": "nums1 = [1,3], nums2 = [2]",
+        "output": "2.00000"
+      },
+      {
+        "input": "nums1 = [1,2], nums2 = [3,4]",
+        "output": "2.50000"
+      }
+    ]
+  },
+  "longest-palindromic-substring": {
+    "title": "Longest Palindromic Substring",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "s = \"babad\"",
+        "output": "\"bab\""
+      },
+      {
+        "input": "s = \"cbbd\"",
+        "output": "\"bb\""
+      }
+    ]
+  },
+  "zigzag-conversion": {
+    "title": "Zigzag Conversion",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "P   A   H   N",
+        "output": "A P L S I I G"
+      },
+      {
+        "input": "s = \"PAYPALISHIRING\", numRows = 3",
+        "output": "\"PAHNAPLSIIGYIR\""
+      },
+      {
+        "input": "s = \"PAYPALISHIRING\", numRows = 4",
+        "output": "\"PINALSIGYAHRPI\""
+      },
+      {
+        "input": "s = \"A\", numRows = 1",
+        "output": "\"A\""
+      }
+    ]
+  },
+  "reverse-integer": {
+    "title": "Reverse Integer",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "x = 123",
+        "output": "321"
+      },
+      {
+        "input": "x = -123",
+        "output": "-321"
+      },
+      {
+        "input": "x = 120",
+        "output": "21"
+      }
+    ]
+  },
+  "string-to-integer-atoi": {
+    "title": "String to Integer (atoi)",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "The underlined characters are what is read in and the caret is the current reader position.",
+        "output": "Step 1: \"42\" (no characters read because there is no leading whitespace)"
+      },
+      {
+        "input": "Step 1: \"   -042\" (leading whitespace is read and ignored)",
+        "output": "^"
+      },
+      {
+        "input": "Step 1: \"1337c0d3\" (no characters read because there is no leading whitespace)",
+        "output": "^"
+      },
+      {
+        "input": "Step 1: \"0-1\" (no characters read because there is no leading whitespace)",
+        "output": "^"
+      }
+    ]
+  },
+  "palindrome-number": {
+    "title": "Palindrome Number",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "x = 121",
+        "output": "true"
+      },
+      {
+        "input": "x = -121",
+        "output": "false"
+      },
+      {
+        "input": "x = 10",
+        "output": "false"
+      }
+    ]
+  },
+  "regular-expression-matching": {
+    "title": "Regular Expression Matching",
+    "difficulty": "Hard",
+    "testcases": [
+      {
+        "input": "s = \"aa\", p = \"a\"",
+        "output": "false"
+      },
+      {
+        "input": "s = \"aa\", p = \"a*\"",
+        "output": "true"
+      },
+      {
+        "input": "s = \"ab\", p = \".*\"",
+        "output": "true"
+      }
+    ]
+  },
+  "container-with-most-water": {
+    "title": "Container With Most Water",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "height = [1,8,6,2,5,4,8,3,7]",
+        "output": "49"
+      },
+      {
+        "input": "height = [1,1]",
+        "output": "1"
+      }
+    ]
+  },
+  "integer-to-roman": {
+    "title": "Integer to Roman",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "3000 = MMM as 1000 (M) + 1000 (M) + 1000 (M)",
+        "output": "700 = DCC as 500 (D) + 100 (C) + 100 (C)"
+      },
+      {
+        "input": "50 = L",
+        "output": "8 = VIII"
+      },
+      {
+        "input": "1000 = M",
+        "output": "900 = CM"
+      }
+    ]
+  },
+  "roman-to-integer": {
+    "title": "Roman to Integer",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "Symbol       Value",
+        "output": "I             1"
+      },
+      {
+        "input": "s = \"III\"",
+        "output": "3"
+      },
+      {
+        "input": "s = \"LVIII\"",
+        "output": "58"
+      },
+      {
+        "input": "s = \"MCMXCIV\"",
+        "output": "1994"
+      }
+    ]
+  },
+  "longest-common-prefix": {
+    "title": "Longest Common Prefix",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "strs = [\"flower\",\"flow\",\"flight\"]",
+        "output": "\"fl\""
+      },
+      {
+        "input": "strs = [\"dog\",\"racecar\",\"car\"]",
+        "output": "\"\""
+      }
+    ]
+  },
+  "3sum": {
+    "title": "3Sum",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "nums = [-1,0,1,2,-1,-4]",
+        "output": "[[-1,-1,2],[-1,0,1]]"
+      },
+      {
+        "input": "nums = [0,1,1]",
+        "output": "[]"
+      },
+      {
+        "input": "nums = [0,0,0]",
+        "output": "[[0,0,0]]"
+      }
+    ]
+  },
+  "3sum-closest": {
+    "title": "3Sum Closest",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "nums = [-1,2,1,-4], target = 1",
+        "output": "2"
+      },
+      {
+        "input": "nums = [0,0,0], target = 1",
+        "output": "0"
+      }
+    ]
+  },
+  "letter-combinations-of-a-phone-number": {
+    "title": "Letter Combinations of a Phone Number",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "digits = \"23\"",
+        "output": "[\"ad\",\"ae\",\"af\",\"bd\",\"be\",\"bf\",\"cd\",\"ce\",\"cf\"]"
+      },
+      {
+        "input": "digits = \"2\"",
+        "output": "[\"a\",\"b\",\"c\"]"
+      }
+    ]
+  },
+  "4sum": {
+    "title": "4Sum",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "nums = [1,0,-1,0,-2,2], target = 0",
+        "output": "[[-2,-1,1,2],[-2,0,0,2],[-1,0,0,1]]"
+      },
+      {
+        "input": "nums = [2,2,2,2,2], target = 8",
+        "output": "[[2,2,2,2]]"
+      }
+    ]
+  },
+  "remove-nth-node-from-end-of-list": {
+    "title": "Remove Nth Node From End of List",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "head = [1,2,3,4,5], n = 2",
+        "output": "[1,2,3,5]"
+      },
+      {
+        "input": "head = [1], n = 1",
+        "output": "[]"
+      },
+      {
+        "input": "head = [1,2], n = 1",
+        "output": "[1]"
+      }
+    ]
+  },
+  "merge-two-sorted-lists": {
+    "title": "Merge Two Sorted Lists",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "list1 = [1,2,4], list2 = [1,3,4]",
+        "output": "[1,1,2,3,4,4]"
+      },
+      {
+        "input": "list1 = [], list2 = []",
+        "output": "[]"
+      },
+      {
+        "input": "list1 = [], list2 = [0]",
+        "output": "[0]"
+      }
+    ]
+  },
+  "generate-parentheses": {
+    "title": "Generate Parentheses",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "n = 3",
+        "output": "[\"((()))\",\"(()())\",\"(())()\",\"()(())\",\"()()()\"]"
+      },
+      {
+        "input": "n = 1",
+        "output": "[\"()\"]"
+      }
+    ]
+  },
+  "merge-k-sorted-lists": {
+    "title": "Merge k Sorted Lists",
+    "difficulty": "Hard",
+    "testcases": [
+      {
+        "input": "lists = [[1,4,5],[1,3,4],[2,6]]",
+        "output": "[1,1,2,3,4,4,5,6]"
+      },
+      {
+        "input": "lists = []",
+        "output": "[]"
+      },
+      {
+        "input": "lists = [[]]",
+        "output": "[]"
+      }
+    ]
+  },
+  "reverse-nodes-in-k-group": {
+    "title": "Reverse Nodes in k-Group",
+    "difficulty": "Hard",
+    "testcases": [
+      {
+        "input": "head = [1,2,3,4,5], k = 2",
+        "output": "[2,1,4,3,5]"
+      },
+      {
+        "input": "head = [1,2,3,4,5], k = 3",
+        "output": "[3,2,1,4,5]"
+      }
+    ]
+  },
+  "remove-duplicates-from-sorted-array": {
+    "title": "Remove Duplicates from Sorted Array",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "int[] nums = [...]; // Input array",
+        "output": "int[] expectedNums = [...]; // The expected answer with correct length"
+      },
+      {
+        "input": "nums = [1,1,2]",
+        "output": "2, nums = [1,2,_]"
+      },
+      {
+        "input": "nums = [0,0,1,1,1,2,2,3,3,4]",
+        "output": "5, nums = [0,1,2,3,4,_,_,_,_,_]"
+      }
+    ]
+  },
+  "remove-element": {
+    "title": "Remove Element",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "int[] nums = [...]; // Input array",
+        "output": "int val = ...; // Value to remove"
+      },
+      {
+        "input": "nums = [3,2,2,3], val = 3",
+        "output": "2, nums = [2,2,_,_]"
+      },
+      {
+        "input": "nums = [0,1,2,2,3,0,4,2], val = 2",
+        "output": "5, nums = [0,1,4,0,3,_,_,_]"
+      }
+    ]
+  },
+  "find-the-index-of-the-first-occurrence-in-a-string": {
+    "title": "Find the Index of the First Occurrence in a String",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "haystack = \"sadbutsad\", needle = \"sad\"",
+        "output": "0"
+      },
+      {
+        "input": "haystack = \"leetcode\", needle = \"leeto\"",
+        "output": "-1"
+      }
+    ]
+  },
+  "divide-two-integers": {
+    "title": "Divide Two Integers",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "dividend = 10, divisor = 3",
+        "output": "3"
+      },
+      {
+        "input": "dividend = 7, divisor = -3",
+        "output": "-2"
+      }
+    ]
+  },
+  "next-permutation": {
+    "title": "Next Permutation",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "nums = [1,2,3]",
+        "output": "[1,3,2]"
+      },
+      {
+        "input": "nums = [3,2,1]",
+        "output": "[1,2,3]"
+      },
+      {
+        "input": "nums = [1,1,5]",
+        "output": "[1,5,1]"
+      }
+    ]
+  },
+  "longest-valid-parentheses": {
+    "title": "Longest Valid Parentheses",
+    "difficulty": "Hard",
+    "testcases": [
+      {
+        "input": "s = \"(()\"",
+        "output": "2"
+      },
+      {
+        "input": "s = \")()())\"",
+        "output": "4"
+      },
+      {
+        "input": "s = \"\"",
+        "output": "0"
+      }
+    ]
+  },
+  "search-in-rotated-sorted-array": {
+    "title": "Search in Rotated Sorted Array",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "nums = [4,5,6,7,0,1,2], target = 0",
+        "output": "4"
+      },
+      {
+        "input": "nums = [4,5,6,7,0,1,2], target = 3",
+        "output": "-1"
+      },
+      {
+        "input": "nums = [1], target = 0",
+        "output": "-1"
+      }
+    ]
+  },
+  "find-first-and-last-position-of-element-in-sorted-array": {
+    "title": "Find First and Last Position of Element in Sorted Array",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "nums = [5,7,7,8,8,10], target = 8",
+        "output": "[3,4]"
+      },
+      {
+        "input": "nums = [5,7,7,8,8,10], target = 6",
+        "output": "[-1,-1]"
+      },
+      {
+        "input": "nums = [], target = 0",
+        "output": "[-1,-1]"
+      }
+    ]
+  },
+  "search-insert-position": {
+    "title": "Search Insert Position",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "nums = [1,3,5,6], target = 5",
+        "output": "2"
+      },
+      {
+        "input": "nums = [1,3,5,6], target = 2",
+        "output": "1"
+      },
+      {
+        "input": "nums = [1,3,5,6], target = 7",
+        "output": "4"
+      }
+    ]
+  },
+  "valid-sudoku": {
+    "title": "Valid Sudoku",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "board = \n[[\"5\",\"3\",\".\",\".\",\"7\",\".\",\".\",\".\",\".\"]\n,[\"6\",\".\",\".\",\"1\",\"9\",\"5\",\".\",\".\",\".\"]\n,[\".\",\"9\",\"8\",\".\",\".\",\".\",\".\",\"6\",\".\"]\n,[\"8\",\".\",\".\",\".\",\"6\",\".\",\".\",\".\",\"3\"]\n,[\"4\",\".\",\".\",\"8\",\".\",\"3\",\".\",\".\",\"1\"]\n,[\"7\",\".\",\".\",\".\",\"2\",\".\",\".\",\".\",\"6\"]\n,[\".\",\"6\",\".\",\".\",\".\",\".\",\"2\",\"8\",\".\"]\n,[\".\",\".\",\".\",\"4\",\"1\",\"9\",\".\",\".\",\"5\"]\n,[\".\",\".\",\".\",\".\",\"8\",\".\",\".\",\"7\",\"9\"]]",
+        "output": "true"
+      },
+      {
+        "input": "board = \n[[\"8\",\"3\",\".\",\".\",\"7\",\".\",\".\",\".\",\".\"]\n,[\"6\",\".\",\".\",\"1\",\"9\",\"5\",\".\",\".\",\".\"]\n,[\".\",\"9\",\"8\",\".\",\".\",\".\",\".\",\"6\",\".\"]\n,[\"8\",\".\",\".\",\".\",\"6\",\".\",\".\",\".\",\"3\"]\n,[\"4\",\".\",\".\",\"8\",\".\",\"3\",\".\",\".\",\"1\"]\n,[\"7\",\".\",\".\",\".\",\"2\",\".\",\".\",\".\",\"6\"]\n,[\".\",\"6\",\".\",\".\",\".\",\".\",\"2\",\"8\",\".\"]\n,[\".\",\".\",\".\",\"4\",\"1\",\"9\",\".\",\".\",\"5\"]\n,[\".\",\".\",\".\",\".\",\"8\",\".\",\".\",\"7\",\"9\"]]",
+        "output": "false"
+      }
+    ]
+  },
+  "sudoku-solver": {
+    "title": "Sudoku Solver",
+    "difficulty": "Hard",
+    "testcases": [
+      {
+        "input": "board = [[\"5\",\"3\",\".\",\".\",\"7\",\".\",\".\",\".\",\".\"],[\"6\",\".\",\".\",\"1\",\"9\",\"5\",\".\",\".\",\".\"],[\".\",\"9\",\"8\",\".\",\".\",\".\",\".\",\"6\",\".\"],[\"8\",\".\",\".\",\".\",\"6\",\".\",\".\",\".\",\"3\"],[\"4\",\".\",\".\",\"8\",\".\",\"3\",\".\",\".\",\"1\"],[\"7\",\".\",\".\",\".\",\"2\",\".\",\".\",\".\",\"6\"],[\".\",\"6\",\".\",\".\",\".\",\".\",\"2\",\"8\",\".\"],[\".\",\".\",\".\",\"4\",\"1\",\"9\",\".\",\".\",\"5\"],[\".\",\".\",\".\",\".\",\"8\",\".\",\".\",\"7\",\"9\"]]",
+        "output": "[[\"5\",\"3\",\"4\",\"6\",\"7\",\"8\",\"9\",\"1\",\"2\"],[\"6\",\"7\",\"2\",\"1\",\"9\",\"5\",\"3\",\"4\",\"8\"],[\"1\",\"9\",\"8\",\"3\",\"4\",\"2\",\"5\",\"6\",\"7\"],[\"8\",\"5\",\"9\",\"7\",\"6\",\"1\",\"4\",\"2\",\"3\"],[\"4\",\"2\",\"6\",\"8\",\"5\",\"3\",\"7\",\"9\",\"1\"],[\"7\",\"1\",\"3\",\"9\",\"2\",\"4\",\"8\",\"5\",\"6\"],[\"9\",\"6\",\"1\",\"5\",\"3\",\"7\",\"2\",\"8\",\"4\"],[\"2\",\"8\",\"7\",\"4\",\"1\",\"9\",\"6\",\"3\",\"5\"],[\"3\",\"4\",\"5\",\"2\",\"8\",\"6\",\"1\",\"7\",\"9\"]]"
+      }
+    ]
+  },
+  "count-and-say": {
+    "title": "Count and Say",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "countAndSay(1) = \"1\"",
+        "output": "countAndSay(2) = RLE of \"1\" = \"11\""
+      }
+    ]
+  },
+  "combination-sum": {
+    "title": "Combination Sum",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "candidates = [2,3,6,7], target = 7",
+        "output": "[[2,2,3],[7]]"
+      },
+      {
+        "input": "candidates = [2,3,5], target = 8",
+        "output": "[[2,2,2,2],[2,3,3],[3,5]]"
+      },
+      {
+        "input": "candidates = [2], target = 1",
+        "output": "[]"
+      }
+    ]
+  },
+  "combination-sum-ii": {
+    "title": "Combination Sum II",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "candidates = [10,1,2,7,6,1,5], target = 8",
+        "output": "[\n[1,1,6],\n[1,2,5],\n[1,7],\n[2,6]\n]"
+      },
+      {
+        "input": "candidates = [2,5,2,1,2], target = 5",
+        "output": "[\n[1,2,2],\n[5]\n]"
+      }
+    ]
+  },
+  "first-missing-positive": {
+    "title": "First Missing Positive",
+    "difficulty": "Hard",
+    "testcases": [
+      {
+        "input": "nums = [1,2,0]",
+        "output": "3"
+      },
+      {
+        "input": "nums = [3,4,-1,1]",
+        "output": "2"
+      },
+      {
+        "input": "nums = [7,8,9,11,12]",
+        "output": "1"
+      }
+    ]
+  },
+  "trapping-rain-water": {
+    "title": "Trapping Rain Water",
+    "difficulty": "Hard",
+    "testcases": [
+      {
+        "input": "height = [0,1,0,2,1,0,1,3,2,1,2,1]",
+        "output": "6"
+      },
+      {
+        "input": "height = [4,2,0,3,2,5]",
+        "output": "9"
+      }
+    ]
+  },
+  "multiply-strings": {
+    "title": "Multiply Strings",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "num1 = \"2\", num2 = \"3\"",
+        "output": "\"6\""
+      },
+      {
+        "input": "num1 = \"123\", num2 = \"456\"",
+        "output": "\"56088\""
+      }
+    ]
+  },
+  "wildcard-matching": {
+    "title": "Wildcard Matching",
+    "difficulty": "Hard",
+    "testcases": [
+      {
+        "input": "s = \"aa\", p = \"a\"",
+        "output": "false"
+      },
+      {
+        "input": "s = \"aa\", p = \"*\"",
+        "output": "true"
+      },
+      {
+        "input": "s = \"cb\", p = \"?a\"",
+        "output": "false"
+      }
+    ]
+  },
+  "jump-game-ii": {
+    "title": "Jump Game II",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "nums = [2,3,1,1,4]",
+        "output": "2"
+      },
+      {
+        "input": "nums = [2,3,0,1,4]",
+        "output": "2"
+      }
+    ]
+  },
+  "permutations": {
+    "title": "Permutations",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "nums = [1,2,3]",
+        "output": "[[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]]"
+      },
+      {
+        "input": "nums = [0,1]",
+        "output": "[[0,1],[1,0]]"
+      },
+      {
+        "input": "nums = [1]",
+        "output": "[[1]]"
+      }
+    ]
+  },
+  "permutations-ii": {
+    "title": "Permutations II",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "nums = [1,1,2]",
+        "output": "[[1,1,2],\n [1,2,1],\n [2,1,1]]"
+      },
+      {
+        "input": "nums = [1,2,3]",
+        "output": "[[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]]"
+      }
+    ]
+  },
+  "rotate-image": {
+    "title": "Rotate Image",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "matrix = [[1,2,3],[4,5,6],[7,8,9]]",
+        "output": "[[7,4,1],[8,5,2],[9,6,3]]"
+      },
+      {
+        "input": "matrix = [[5,1,9,11],[2,4,8,10],[13,3,6,7],[15,14,12,16]]",
+        "output": "[[15,13,2,5],[14,3,4,1],[12,6,8,9],[16,7,10,11]]"
+      }
+    ]
+  },
+  "powx-n": {
+    "title": "Pow(x, n)",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "x = 2.00000, n = 10",
+        "output": "1024.00000"
+      },
+      {
+        "input": "x = 2.10000, n = 3",
+        "output": "9.26100"
+      },
+      {
+        "input": "x = 2.00000, n = -2",
+        "output": "0.25000"
+      }
+    ]
+  },
+  "n-queens": {
+    "title": "N-Queens",
+    "difficulty": "Hard",
+    "testcases": [
+      {
+        "input": "n = 4",
+        "output": "[[\".Q..\",\"...Q\",\"Q...\",\"..Q.\"],[\"..Q.\",\"Q...\",\"...Q\",\".Q..\"]]"
+      },
+      {
+        "input": "n = 1",
+        "output": "[[\"Q\"]]"
+      }
+    ]
+  },
+  "n-queens-ii": {
+    "title": "N-Queens II",
+    "difficulty": "Hard",
+    "testcases": [
+      {
+        "input": "n = 4",
+        "output": "2"
+      },
+      {
+        "input": "n = 1",
+        "output": "1"
+      }
+    ]
+  },
+  "maximum-subarray": {
+    "title": "Maximum Subarray",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "nums = [-2,1,-3,4,-1,2,1,-5,4]",
+        "output": "6"
+      },
+      {
+        "input": "nums = [1]",
+        "output": "1"
+      },
+      {
+        "input": "nums = [5,4,-1,7,8]",
+        "output": "23"
+      }
+    ]
+  },
+  "spiral-matrix": {
+    "title": "Spiral Matrix",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "matrix = [[1,2,3],[4,5,6],[7,8,9]]",
+        "output": "[1,2,3,6,9,8,7,4,5]"
+      },
+      {
+        "input": "matrix = [[1,2,3,4],[5,6,7,8],[9,10,11,12]]",
+        "output": "[1,2,3,4,8,12,11,10,9,5,6,7]"
+      }
+    ]
+  },
+  "jump-game": {
+    "title": "Jump Game",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "nums = [2,3,1,1,4]",
+        "output": "true"
+      },
+      {
+        "input": "nums = [3,2,1,0,4]",
+        "output": "false"
+      }
+    ]
+  },
+  "merge-intervals": {
+    "title": "Merge Intervals",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "intervals = [[1,3],[2,6],[8,10],[15,18]]",
+        "output": "[[1,6],[8,10],[15,18]]"
+      },
+      {
+        "input": "intervals = [[1,4],[4,5]]",
+        "output": "[[1,5]]"
+      },
+      {
+        "input": "intervals = [[4,7],[1,4]]",
+        "output": "[[1,7]]"
+      }
+    ]
+  },
+  "insert-interval": {
+    "title": "Insert Interval",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "intervals = [[1,3],[6,9]], newInterval = [2,5]",
+        "output": "[[1,5],[6,9]]"
+      },
+      {
+        "input": "intervals = [[1,2],[3,5],[6,7],[8,10],[12,16]], newInterval = [4,8]",
+        "output": "[[1,2],[3,10],[12,16]]"
+      }
+    ]
+  },
+  "length-of-last-word": {
+    "title": "Length of Last Word",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "s = \"Hello World\"",
+        "output": "5"
+      },
+      {
+        "input": "s = \"   fly me   to   the moon  \"",
+        "output": "4"
+      },
+      {
+        "input": "s = \"luffy is still joyboy\"",
+        "output": "6"
+      }
+    ]
+  },
+  "spiral-matrix-ii": {
+    "title": "Spiral Matrix II",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "n = 3",
+        "output": "[[1,2,3],[8,9,4],[7,6,5]]"
+      },
+      {
+        "input": "n = 1",
+        "output": "[[1]]"
+      }
+    ]
+  },
+  "permutation-sequence": {
+    "title": "Permutation Sequence",
+    "difficulty": "Hard",
+    "testcases": [
+      {
+        "input": "n = 3, k = 3",
+        "output": "\"213\""
+      },
+      {
+        "input": "n = 4, k = 9",
+        "output": "\"2314\""
+      },
+      {
+        "input": "n = 3, k = 1",
+        "output": "\"123\""
+      }
+    ]
+  },
+  "rotate-list": {
+    "title": "Rotate List",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "head = [1,2,3,4,5], k = 2",
+        "output": "[4,5,1,2,3]"
+      },
+      {
+        "input": "head = [0,1,2], k = 4",
+        "output": "[2,0,1]"
+      }
+    ]
+  },
+  "unique-paths": {
+    "title": "Unique Paths",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "m = 3, n = 7",
+        "output": "28"
+      },
+      {
+        "input": "m = 3, n = 2",
+        "output": "3"
+      }
+    ]
+  },
+  "unique-paths-ii": {
+    "title": "Unique Paths II",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "obstacleGrid = [[0,0,0],[0,1,0],[0,0,0]]",
+        "output": "2"
+      },
+      {
+        "input": "obstacleGrid = [[0,1],[0,0]]",
+        "output": "1"
+      }
+    ]
+  },
+  "minimum-path-sum": {
+    "title": "Minimum Path Sum",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "grid = [[1,3,1],[1,5,1],[4,2,1]]",
+        "output": "7"
+      },
+      {
+        "input": "grid = [[1,2,3],[4,5,6]]",
+        "output": "12"
+      }
+    ]
+  },
+  "plus-one": {
+    "title": "Plus One",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "digits = [1,2,3]",
+        "output": "[1,2,4]"
+      },
+      {
+        "input": "digits = [4,3,2,1]",
+        "output": "[4,3,2,2]"
+      },
+      {
+        "input": "digits = [9]",
+        "output": "[1,0]"
+      }
+    ]
+  },
+  "add-binary": {
+    "title": "Add Binary",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "a = \"11\", b = \"1\"",
+        "output": "\"100\""
+      },
+      {
+        "input": "a = \"1010\", b = \"1011\"",
+        "output": "\"10101\""
+      }
+    ]
+  },
+  "text-justification": {
+    "title": "Text Justification",
+    "difficulty": "Hard",
+    "testcases": [
+      {
+        "input": "words = [\"This\", \"is\", \"an\", \"example\", \"of\", \"text\", \"justification.\"], maxWidth = 16",
+        "output": "[\n   \"This    is    an\",\n   \"example  of text\",\n   \"justification.  \"\n]"
+      },
+      {
+        "input": "words = [\"What\",\"must\",\"be\",\"acknowledgment\",\"shall\",\"be\"], maxWidth = 16",
+        "output": "[\n  \"What   must   be\",\n  \"acknowledgment  \",\n  \"shall be        \"\n]"
+      },
+      {
+        "input": "words = [\"Science\",\"is\",\"what\",\"we\",\"understand\",\"well\",\"enough\",\"to\",\"explain\",\"to\",\"a\",\"computer.\",\"Art\",\"is\",\"everything\",\"else\",\"we\",\"do\"], maxWidth = 20",
+        "output": "[\n  \"Science  is  what we\",\n  \"understand      well\",\n  \"enough to explain to\",\n  \"a  computer.  Art is\",\n  \"everything  else  we\",\n  \"do                  \"\n]"
+      }
+    ]
+  },
+  "sqrtx": {
+    "title": "Sqrt(x)",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "x = 4",
+        "output": "2"
+      },
+      {
+        "input": "x = 8",
+        "output": "2"
+      }
+    ]
+  },
+  "climbing-stairs": {
+    "title": "Climbing Stairs",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "n = 2",
+        "output": "2"
+      },
+      {
+        "input": "n = 3",
+        "output": "3"
+      }
+    ]
+  },
+  "edit-distance": {
+    "title": "Edit Distance",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "word1 = \"horse\", word2 = \"ros\"",
+        "output": "3"
+      },
+      {
+        "input": "word1 = \"intention\", word2 = \"execution\"",
+        "output": "5"
+      }
+    ]
+  },
+  "set-matrix-zeroes": {
+    "title": "Set Matrix Zeroes",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "matrix = [[1,1,1],[1,0,1],[1,1,1]]",
+        "output": "[[1,0,1],[0,0,0],[1,0,1]]"
+      },
+      {
+        "input": "matrix = [[0,1,2,0],[3,4,5,2],[1,3,1,5]]",
+        "output": "[[0,0,0,0],[0,4,5,0],[0,3,1,0]]"
+      }
+    ]
+  },
+  "search-a-2d-matrix": {
+    "title": "Search a 2D Matrix",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "matrix = [[1,3,5,7],[10,11,16,20],[23,30,34,60]], target = 3",
+        "output": "true"
+      },
+      {
+        "input": "matrix = [[1,3,5,7],[10,11,16,20],[23,30,34,60]], target = 13",
+        "output": "false"
+      }
+    ]
+  },
+  "sort-colors": {
+    "title": "Sort Colors",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "nums = [2,0,2,1,1,0]",
+        "output": "[0,0,1,1,2,2]"
+      },
+      {
+        "input": "nums = [2,0,1]",
+        "output": "[0,1,2]"
+      }
+    ]
+  },
+  "minimum-window-substring": {
+    "title": "Minimum Window Substring",
+    "difficulty": "Hard",
+    "testcases": [
+      {
+        "input": "s = \"ADOBECODEBANC\", t = \"ABC\"",
+        "output": "\"BANC\""
+      },
+      {
+        "input": "s = \"a\", t = \"a\"",
+        "output": "\"a\""
+      },
+      {
+        "input": "s = \"a\", t = \"aa\"",
+        "output": "\"\""
+      }
+    ]
+  },
+  "combinations": {
+    "title": "Combinations",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "n = 4, k = 2",
+        "output": "[[1,2],[1,3],[1,4],[2,3],[2,4],[3,4]]"
+      },
+      {
+        "input": "n = 1, k = 1",
+        "output": "[[1]]"
+      }
+    ]
+  },
+  "subsets": {
+    "title": "Subsets",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "nums = [1,2,3]",
+        "output": "[[],[1],[2],[1,2],[3],[1,3],[2,3],[1,2,3]]"
+      },
+      {
+        "input": "nums = [0]",
+        "output": "[[],[0]]"
+      }
+    ]
+  },
+  "word-search": {
+    "title": "Word Search",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "board = [[\"A\",\"B\",\"C\",\"E\"],[\"S\",\"F\",\"C\",\"S\"],[\"A\",\"D\",\"E\",\"E\"]], word = \"ABCCED\"",
+        "output": "true"
+      },
+      {
+        "input": "board = [[\"A\",\"B\",\"C\",\"E\"],[\"S\",\"F\",\"C\",\"S\"],[\"A\",\"D\",\"E\",\"E\"]], word = \"SEE\"",
+        "output": "true"
+      },
+      {
+        "input": "board = [[\"A\",\"B\",\"C\",\"E\"],[\"S\",\"F\",\"C\",\"S\"],[\"A\",\"D\",\"E\",\"E\"]], word = \"ABCB\"",
+        "output": "false"
+      }
+    ]
+  },
+  "remove-duplicates-from-sorted-array-ii": {
+    "title": "Remove Duplicates from Sorted Array II",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "int[] nums = [...]; // Input array",
+        "output": "int[] expectedNums = [...]; // The expected answer with correct length"
+      },
+      {
+        "input": "nums = [1,1,1,2,2,3]",
+        "output": "5, nums = [1,1,2,2,3,_]"
+      },
+      {
+        "input": "nums = [0,0,1,1,1,1,2,3,3]",
+        "output": "7, nums = [0,0,1,1,2,3,3,_,_]"
+      }
+    ]
+  },
+  "search-in-rotated-sorted-array-ii": {
+    "title": "Search in Rotated Sorted Array II",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "nums = [2,5,6,0,0,1,2], target = 0",
+        "output": "true"
+      },
+      {
+        "input": "nums = [2,5,6,0,0,1,2], target = 3",
+        "output": "false"
+      }
+    ]
+  },
+  "remove-duplicates-from-sorted-list-ii": {
+    "title": "Remove Duplicates from Sorted List II",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "head = [1,2,3,3,4,4,5]",
+        "output": "[1,2,5]"
+      },
+      {
+        "input": "head = [1,1,1,2,3]",
+        "output": "[2,3]"
+      }
+    ]
+  },
+  "remove-duplicates-from-sorted-list": {
+    "title": "Remove Duplicates from Sorted List",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "head = [1,1,2]",
+        "output": "[1,2]"
+      },
+      {
+        "input": "head = [1,1,2,3,3]",
+        "output": "[1,2,3]"
+      }
+    ]
+  },
+  "largest-rectangle-in-histogram": {
+    "title": "Largest Rectangle in Histogram",
+    "difficulty": "Hard",
+    "testcases": [
+      {
+        "input": "heights = [2,1,5,6,2,3]",
+        "output": "10"
+      },
+      {
+        "input": "heights = [2,4]",
+        "output": "4"
+      }
+    ]
+  },
+  "maximal-rectangle": {
+    "title": "Maximal Rectangle",
+    "difficulty": "Hard",
+    "testcases": [
+      {
+        "input": "matrix = [[\"1\",\"0\",\"1\",\"0\",\"0\"],[\"1\",\"0\",\"1\",\"1\",\"1\"],[\"1\",\"1\",\"1\",\"1\",\"1\"],[\"1\",\"0\",\"0\",\"1\",\"0\"]]",
+        "output": "6"
+      },
+      {
+        "input": "matrix = [[\"0\"]]",
+        "output": "0"
+      },
+      {
+        "input": "matrix = [[\"1\"]]",
+        "output": "1"
+      }
+    ]
+  },
+  "partition-list": {
+    "title": "Partition List",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "head = [1,4,3,2,5,2], x = 3",
+        "output": "[1,2,2,4,3,5]"
+      },
+      {
+        "input": "head = [2,1], x = 2",
+        "output": "[1,2]"
+      }
+    ]
+  },
+  "scramble-string": {
+    "title": "Scramble String",
+    "difficulty": "Hard",
+    "testcases": [
+      {
+        "input": "s1 = \"great\", s2 = \"rgeat\"",
+        "output": "true"
+      },
+      {
+        "input": "s1 = \"abcde\", s2 = \"caebd\"",
+        "output": "false"
+      },
+      {
+        "input": "s1 = \"a\", s2 = \"a\"",
+        "output": "true"
+      }
+    ]
+  },
+  "merge-sorted-array": {
+    "title": "Merge Sorted Array",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "nums1 = [1,2,3,0,0,0], m = 3, nums2 = [2,5,6], n = 3",
+        "output": "[1,2,2,3,5,6]"
+      },
+      {
+        "input": "nums1 = [1], m = 1, nums2 = [], n = 0",
+        "output": "[1]"
+      },
+      {
+        "input": "nums1 = [0], m = 0, nums2 = [1], n = 1",
+        "output": "[1]"
+      }
+    ]
+  },
+  "gray-code": {
+    "title": "Gray Code",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "n = 2",
+        "output": "[0,1,3,2]"
+      },
+      {
+        "input": "n = 1",
+        "output": "[0,1]"
+      }
+    ]
+  },
+  "subsets-ii": {
+    "title": "Subsets II",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "nums = [1,2,2]",
+        "output": "[[],[1],[1,2],[1,2,2],[2],[2,2]]"
+      },
+      {
+        "input": "nums = [0]",
+        "output": "[[],[0]]"
+      }
+    ]
+  },
+  "reverse-linked-list-ii": {
+    "title": "Reverse Linked List II",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "head = [1,2,3,4,5], left = 2, right = 4",
+        "output": "[1,4,3,2,5]"
+      },
+      {
+        "input": "head = [5], left = 1, right = 1",
+        "output": "[5]"
+      }
+    ]
+  },
+  "restore-ip-addresses": {
+    "title": "Restore IP Addresses",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "s = \"25525511135\"",
+        "output": "[\"255.255.11.135\",\"255.255.111.35\"]"
+      },
+      {
+        "input": "s = \"0000\"",
+        "output": "[\"0.0.0.0\"]"
+      },
+      {
+        "input": "s = \"101023\"",
+        "output": "[\"1.0.10.23\",\"1.0.102.3\",\"10.1.0.23\",\"10.10.2.3\",\"101.0.2.3\"]"
+      }
+    ]
+  },
+  "unique-binary-search-trees-ii": {
+    "title": "Unique Binary Search Trees II",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "n = 3",
+        "output": "[[1,null,2,null,3],[1,null,3,2],[2,1,3],[3,1,null,null,2],[3,2,null,1]]"
+      },
+      {
+        "input": "n = 1",
+        "output": "[[1]]"
+      }
+    ]
+  },
+  "unique-binary-search-trees": {
+    "title": "Unique Binary Search Trees",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "n = 3",
+        "output": "5"
+      },
+      {
+        "input": "n = 1",
+        "output": "1"
+      }
+    ]
+  },
+  "interleaving-string": {
+    "title": "Interleaving String",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "s1 = \"aabcc\", s2 = \"dbbca\", s3 = \"aadbbcbcac\"",
+        "output": "true"
+      },
+      {
+        "input": "s1 = \"aabcc\", s2 = \"dbbca\", s3 = \"aadbbbaccc\"",
+        "output": "false"
+      },
+      {
+        "input": "s1 = \"\", s2 = \"\", s3 = \"\"",
+        "output": "true"
+      }
+    ]
+  },
+  "validate-binary-search-tree": {
+    "title": "Validate Binary Search Tree",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "root = [2,1,3]",
+        "output": "true"
+      },
+      {
+        "input": "root = [5,1,4,null,null,3,6]",
+        "output": "false"
+      }
+    ]
+  },
+  "recover-binary-search-tree": {
+    "title": "Recover Binary Search Tree",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "root = [1,3,null,null,2]",
+        "output": "[3,1,null,null,2]"
+      },
+      {
+        "input": "root = [3,1,4,null,null,2]",
+        "output": "[2,1,4,null,null,3]"
+      }
+    ]
+  },
+  "same-tree": {
+    "title": "Same Tree",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "p = [1,2,3], q = [1,2,3]",
+        "output": "true"
+      },
+      {
+        "input": "p = [1,2], q = [1,null,2]",
+        "output": "false"
+      },
+      {
+        "input": "p = [1,2,1], q = [1,1,2]",
+        "output": "false"
+      }
+    ]
+  },
+  "symmetric-tree": {
+    "title": "Symmetric Tree",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "root = [1,2,2,3,4,4,3]",
+        "output": "true"
+      },
+      {
+        "input": "root = [1,2,2,null,3,null,3]",
+        "output": "false"
+      }
+    ]
+  },
+  "binary-tree-level-order-traversal": {
+    "title": "Binary Tree Level Order Traversal",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "root = [3,9,20,null,null,15,7]",
+        "output": "[[3],[9,20],[15,7]]"
+      },
+      {
+        "input": "root = [1]",
+        "output": "[[1]]"
+      },
+      {
+        "input": "root = []",
+        "output": "[]"
+      }
+    ]
+  },
+  "binary-tree-zigzag-level-order-traversal": {
+    "title": "Binary Tree Zigzag Level Order Traversal",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "root = [3,9,20,null,null,15,7]",
+        "output": "[[3],[20,9],[15,7]]"
+      },
+      {
+        "input": "root = [1]",
+        "output": "[[1]]"
+      },
+      {
+        "input": "root = []",
+        "output": "[]"
+      }
+    ]
+  },
+  "maximum-depth-of-binary-tree": {
+    "title": "Maximum Depth of Binary Tree",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "root = [3,9,20,null,null,15,7]",
+        "output": "3"
+      },
+      {
+        "input": "root = [1,null,2]",
+        "output": "2"
+      }
+    ]
+  },
+  "construct-binary-tree-from-preorder-and-inorder-traversal": {
+    "title": "Construct Binary Tree from Preorder and Inorder Traversal",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "preorder = [3,9,20,15,7], inorder = [9,3,15,20,7]",
+        "output": "[3,9,20,null,null,15,7]"
+      },
+      {
+        "input": "preorder = [-1], inorder = [-1]",
+        "output": "[-1]"
+      }
+    ]
+  },
+  "construct-binary-tree-from-inorder-and-postorder-traversal": {
+    "title": "Construct Binary Tree from Inorder and Postorder Traversal",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "inorder = [9,3,15,20,7], postorder = [9,15,7,20,3]",
+        "output": "[3,9,20,null,null,15,7]"
+      },
+      {
+        "input": "inorder = [-1], postorder = [-1]",
+        "output": "[-1]"
+      }
+    ]
+  },
+  "binary-tree-level-order-traversal-ii": {
+    "title": "Binary Tree Level Order Traversal II",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "root = [3,9,20,null,null,15,7]",
+        "output": "[[15,7],[9,20],[3]]"
+      },
+      {
+        "input": "root = [1]",
+        "output": "[[1]]"
+      },
+      {
+        "input": "root = []",
+        "output": "[]"
+      }
+    ]
+  },
+  "convert-sorted-array-to-binary-search-tree": {
+    "title": "Convert Sorted Array to Binary Search Tree",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "nums = [-10,-3,0,5,9]",
+        "output": "[0,-3,9,-10,null,5]"
+      },
+      {
+        "input": "nums = [1,3]",
+        "output": "[3,1]"
+      }
+    ]
+  },
+  "convert-sorted-list-to-binary-search-tree": {
+    "title": "Convert Sorted List to Binary Search Tree",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "head = [-10,-3,0,5,9]",
+        "output": "[0,-3,9,-10,null,5]"
+      },
+      {
+        "input": "head = []",
+        "output": "[]"
+      }
+    ]
+  },
+  "balanced-binary-tree": {
+    "title": "Balanced Binary Tree",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "root = [3,9,20,null,null,15,7]",
+        "output": "true"
+      },
+      {
+        "input": "root = [1,2,2,3,3,null,null,4,4]",
+        "output": "false"
+      },
+      {
+        "input": "root = []",
+        "output": "true"
+      }
+    ]
+  },
+  "minimum-depth-of-binary-tree": {
+    "title": "Minimum Depth of Binary Tree",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "root = [3,9,20,null,null,15,7]",
+        "output": "2"
+      },
+      {
+        "input": "root = [2,null,3,null,4,null,5,null,6]",
+        "output": "5"
+      }
+    ]
+  },
+  "path-sum": {
+    "title": "Path Sum",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "root = [5,4,8,11,null,13,4,7,2,null,null,null,1], targetSum = 22",
+        "output": "true"
+      },
+      {
+        "input": "root = [1,2,3], targetSum = 5",
+        "output": "false"
+      },
+      {
+        "input": "root = [], targetSum = 0",
+        "output": "false"
+      }
+    ]
+  },
+  "path-sum-ii": {
+    "title": "Path Sum II",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "root = [5,4,8,11,null,13,4,7,2,null,null,5,1], targetSum = 22",
+        "output": "[[5,4,11,2],[5,8,4,5]]"
+      },
+      {
+        "input": "root = [1,2,3], targetSum = 5",
+        "output": "[]"
+      },
+      {
+        "input": "root = [1,2], targetSum = 0",
+        "output": "[]"
+      }
+    ]
+  },
+  "flatten-binary-tree-to-linked-list": {
+    "title": "Flatten Binary Tree to Linked List",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "root = [1,2,5,3,4,null,6]",
+        "output": "[1,null,2,null,3,null,4,null,5,null,6]"
+      },
+      {
+        "input": "root = []",
+        "output": "[]"
+      },
+      {
+        "input": "root = [0]",
+        "output": "[0]"
+      }
+    ]
+  },
+  "distinct-subsequences": {
+    "title": "Distinct Subsequences",
+    "difficulty": "Hard",
+    "testcases": [
+      {
+        "input": "s = \"rabbbit\", t = \"rabbit\"",
+        "output": "3"
+      },
+      {
+        "input": "s = \"babgbag\", t = \"bag\"",
+        "output": "5"
+      }
+    ]
+  },
+  "populating-next-right-pointers-in-each-node": {
+    "title": "Populating Next Right Pointers in Each Node",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "struct Node {",
+        "output": "int val;"
+      },
+      {
+        "input": "root = [1,2,3,4,5,6,7]",
+        "output": "[1,#,2,3,#,4,5,6,7,#]"
+      },
+      {
+        "input": "root = []",
+        "output": "[]"
+      }
+    ]
+  },
+  "populating-next-right-pointers-in-each-node-ii": {
+    "title": "Populating Next Right Pointers in Each Node II",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "struct Node {",
+        "output": "int val;"
+      },
+      {
+        "input": "root = [1,2,3,4,5,null,7]",
+        "output": "[1,#,2,3,#,4,5,7,#]"
+      },
+      {
+        "input": "root = []",
+        "output": "[]"
+      }
+    ]
+  },
+  "pascals-triangle": {
+    "title": "Pascal's Triangle",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "numRows = 5",
+        "output": "[[1],[1,1],[1,2,1],[1,3,3,1],[1,4,6,4,1]]"
+      },
+      {
+        "input": "numRows = 1",
+        "output": "[[1]]"
+      }
+    ]
+  },
+  "pascals-triangle-ii": {
+    "title": "Pascal's Triangle II",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "rowIndex = 3",
+        "output": "[1,3,3,1]"
+      },
+      {
+        "input": "rowIndex = 0",
+        "output": "[1]"
+      },
+      {
+        "input": "rowIndex = 1",
+        "output": "[1,1]"
+      }
+    ]
+  },
+  "triangle": {
+    "title": "Triangle",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "triangle = [[2],[3,4],[6,5,7],[4,1,8,3]]",
+        "output": "11"
+      },
+      {
+        "input": "triangle = [[-10]]",
+        "output": "-10"
+      }
+    ]
+  },
+  "best-time-to-buy-and-sell-stock": {
+    "title": "Best Time to Buy and Sell Stock",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "prices = [7,1,5,3,6,4]",
+        "output": "5"
+      },
+      {
+        "input": "prices = [7,6,4,3,1]",
+        "output": "0"
+      }
+    ]
+  },
+  "best-time-to-buy-and-sell-stock-ii": {
+    "title": "Best Time to Buy and Sell Stock II",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "prices = [7,1,5,3,6,4]",
+        "output": "7"
+      },
+      {
+        "input": "prices = [1,2,3,4,5]",
+        "output": "4"
+      },
+      {
+        "input": "prices = [7,6,4,3,1]",
+        "output": "0"
+      }
+    ]
+  },
+  "best-time-to-buy-and-sell-stock-iii": {
+    "title": "Best Time to Buy and Sell Stock III",
+    "difficulty": "Hard",
+    "testcases": [
+      {
+        "input": "prices = [3,3,5,0,0,3,1,4]",
+        "output": "6"
+      },
+      {
+        "input": "prices = [1,2,3,4,5]",
+        "output": "4"
+      },
+      {
+        "input": "prices = [7,6,4,3,1]",
+        "output": "0"
+      }
+    ]
+  },
+  "binary-tree-maximum-path-sum": {
+    "title": "Binary Tree Maximum Path Sum",
+    "difficulty": "Hard",
+    "testcases": [
+      {
+        "input": "root = [1,2,3]",
+        "output": "6"
+      },
+      {
+        "input": "root = [-10,9,20,null,null,15,7]",
+        "output": "42"
+      }
+    ]
+  },
+  "valid-palindrome": {
+    "title": "Valid Palindrome",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "s = \"A man, a plan, a canal: Panama\"",
+        "output": "true"
+      },
+      {
+        "input": "s = \"race a car\"",
+        "output": "false"
+      },
+      {
+        "input": "s = \" \"",
+        "output": "true"
+      }
+    ]
+  },
+  "word-ladder-ii": {
+    "title": "Word Ladder II",
+    "difficulty": "Hard",
+    "testcases": [
+      {
+        "input": "beginWord = \"hit\", endWord = \"cog\", wordList = [\"hot\",\"dot\",\"dog\",\"lot\",\"log\",\"cog\"]",
+        "output": "[[\"hit\",\"hot\",\"dot\",\"dog\",\"cog\"],[\"hit\",\"hot\",\"lot\",\"log\",\"cog\"]]"
+      },
+      {
+        "input": "beginWord = \"hit\", endWord = \"cog\", wordList = [\"hot\",\"dot\",\"dog\",\"lot\",\"log\"]",
+        "output": "[]"
+      }
+    ]
+  },
+  "word-ladder": {
+    "title": "Word Ladder",
+    "difficulty": "Hard",
+    "testcases": [
+      {
+        "input": "beginWord = \"hit\", endWord = \"cog\", wordList = [\"hot\",\"dot\",\"dog\",\"lot\",\"log\",\"cog\"]",
+        "output": "5"
+      },
+      {
+        "input": "beginWord = \"hit\", endWord = \"cog\", wordList = [\"hot\",\"dot\",\"dog\",\"lot\",\"log\"]",
+        "output": "0"
+      }
+    ]
+  },
+  "longest-consecutive-sequence": {
+    "title": "Longest Consecutive Sequence",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "nums = [100,4,200,1,3,2]",
+        "output": "4"
+      },
+      {
+        "input": "nums = [0,3,7,2,5,8,4,6,0,1]",
+        "output": "9"
+      },
+      {
+        "input": "nums = [1,0,1,2]",
+        "output": "3"
+      }
+    ]
+  },
+  "sum-root-to-leaf-numbers": {
+    "title": "Sum Root to Leaf Numbers",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "root = [1,2,3]",
+        "output": "25"
+      },
+      {
+        "input": "root = [4,9,0,5,1]",
+        "output": "1026"
+      }
+    ]
+  },
+  "palindrome-partitioning": {
+    "title": "Palindrome Partitioning",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "s = \"aab\"",
+        "output": "[[\"a\",\"a\",\"b\"],[\"aa\",\"b\"]]"
+      },
+      {
+        "input": "s = \"a\"",
+        "output": "[[\"a\"]]"
+      }
+    ]
+  },
+  "palindrome-partitioning-ii": {
+    "title": "Palindrome Partitioning II",
+    "difficulty": "Hard",
+    "testcases": [
+      {
+        "input": "s = \"aab\"",
+        "output": "1"
+      },
+      {
+        "input": "s = \"a\"",
+        "output": "0"
+      },
+      {
+        "input": "s = \"ab\"",
+        "output": "1"
+      }
+    ]
+  },
+  "clone-graph": {
+    "title": "Clone Graph",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "class Node {",
+        "output": "public int val;"
+      },
+      {
+        "input": "adjList = [[2,4],[1,3],[2,4],[1,3]]",
+        "output": "[[2,4],[1,3],[2,4],[1,3]]"
+      },
+      {
+        "input": "adjList = [[]]",
+        "output": "[[]]"
+      },
+      {
+        "input": "adjList = []",
+        "output": "[]"
+      }
+    ]
+  },
+  "gas-station": {
+    "title": "Gas Station",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "gas = [1,2,3,4,5], cost = [3,4,5,1,2]",
+        "output": "3"
+      },
+      {
+        "input": "gas = [2,3,4], cost = [3,4,3]",
+        "output": "-1"
+      }
+    ]
+  },
+  "candy": {
+    "title": "Candy",
+    "difficulty": "Hard",
+    "testcases": [
+      {
+        "input": "ratings = [1,0,2]",
+        "output": "5"
+      },
+      {
+        "input": "ratings = [1,2,2]",
+        "output": "4"
+      }
+    ]
+  },
+  "single-number-ii": {
+    "title": "Single Number II",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "nums = [2,2,3,2]",
+        "output": "3"
+      },
+      {
+        "input": "nums = [0,1,0,1,0,1,99]",
+        "output": "99"
+      }
+    ]
+  },
+  "copy-list-with-random-pointer": {
+    "title": "Copy List with Random Pointer",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "head = [[7,null],[13,0],[11,4],[10,2],[1,0]]",
+        "output": "[[7,null],[13,0],[11,4],[10,2],[1,0]]"
+      },
+      {
+        "input": "head = [[1,1],[2,1]]",
+        "output": "[[1,1],[2,1]]"
+      },
+      {
+        "input": "head = [[3,null],[3,0],[3,null]]",
+        "output": "[[3,null],[3,0],[3,null]]"
+      }
+    ]
+  },
+  "word-break": {
+    "title": "Word Break",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "s = \"leetcode\", wordDict = [\"leet\",\"code\"]",
+        "output": "true"
+      },
+      {
+        "input": "s = \"applepenapple\", wordDict = [\"apple\",\"pen\"]",
+        "output": "true"
+      },
+      {
+        "input": "s = \"catsandog\", wordDict = [\"cats\",\"dog\",\"sand\",\"and\",\"cat\"]",
+        "output": "false"
+      }
+    ]
+  },
+  "word-break-ii": {
+    "title": "Word Break II",
+    "difficulty": "Hard",
+    "testcases": [
+      {
+        "input": "s = \"catsanddog\", wordDict = [\"cat\",\"cats\",\"and\",\"sand\",\"dog\"]",
+        "output": "[\"cats and dog\",\"cat sand dog\"]"
+      },
+      {
+        "input": "s = \"pineapplepenapple\", wordDict = [\"apple\",\"pen\",\"applepen\",\"pine\",\"pineapple\"]",
+        "output": "[\"pine apple pen apple\",\"pineapple pen apple\",\"pine applepen apple\"]"
+      },
+      {
+        "input": "s = \"catsandog\", wordDict = [\"cats\",\"dog\",\"sand\",\"and\",\"cat\"]",
+        "output": "[]"
+      }
+    ]
+  },
+  "linked-list-cycle": {
+    "title": "Linked List Cycle",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "head = [3,2,0,-4], pos = 1",
+        "output": "true"
+      },
+      {
+        "input": "head = [1,2], pos = 0",
+        "output": "true"
+      },
+      {
+        "input": "head = [1], pos = -1",
+        "output": "false"
+      }
+    ]
+  },
+  "linked-list-cycle-ii": {
+    "title": "Linked List Cycle II",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "head = [3,2,0,-4], pos = 1",
+        "output": "tail connects to node index 1"
+      },
+      {
+        "input": "head = [1,2], pos = 0",
+        "output": "tail connects to node index 0"
+      },
+      {
+        "input": "head = [1], pos = -1",
+        "output": "no cycle"
+      }
+    ]
+  },
+  "reorder-list": {
+    "title": "Reorder List",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "head = [1,2,3,4]",
+        "output": "[1,4,2,3]"
+      },
+      {
+        "input": "head = [1,2,3,4,5]",
+        "output": "[1,5,2,4,3]"
+      }
+    ]
+  },
+  "lru-cache": {
+    "title": "LRU Cache",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "[\"LRUCache\", \"put\", \"put\", \"get\", \"put\", \"get\", \"put\", \"get\", \"get\", \"get\"]\n[[2], [1, 1], [2, 2], [1], [3, 3], [2], [4, 4], [1], [3], [4]]",
+        "output": "[null, null, null, 1, null, -1, null, -1, 3, 4]\n\nExplanation\nLRUCache lRUCache = new LRUCache(2);\nlRUCache.put(1, 1); // cache is {1=1}\nlRUCache.put(2, 2); // cache is {1=1, 2=2}\nlRUCache.get(1);    // return 1\nlRUCache.put(3, 3); // LRU key was 2, evicts key 2, cache is {1=1, 3=3}\nlRUCache.get(2);    // returns -1 (not found)\nlRUCache.put(4, 4); // LRU key was 1, evicts key 1, cache is {4=4, 3=3}\nlRUCache.get(1);    // return -1 (not found)\nlRUCache.get(3);    // return 3\nlRUCache.get(4);    // return 4"
+      }
+    ]
+  },
+  "insertion-sort-list": {
+    "title": "Insertion Sort List",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "head = [4,2,1,3]",
+        "output": "[1,2,3,4]"
+      },
+      {
+        "input": "head = [-1,5,3,4,0]",
+        "output": "[-1,0,3,4,5]"
+      }
+    ]
+  },
+  "sort-list": {
+    "title": "Sort List",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "head = [4,2,1,3]",
+        "output": "[1,2,3,4]"
+      },
+      {
+        "input": "head = [-1,5,3,4,0]",
+        "output": "[-1,0,3,4,5]"
+      },
+      {
+        "input": "head = []",
+        "output": "[]"
+      }
+    ]
+  },
+  "max-points-on-a-line": {
+    "title": "Max Points on a Line",
+    "difficulty": "Hard",
+    "testcases": [
+      {
+        "input": "points = [[1,1],[2,2],[3,3]]",
+        "output": "3"
+      },
+      {
+        "input": "points = [[1,1],[3,2],[5,3],[4,1],[2,3],[1,4]]",
+        "output": "4"
+      }
+    ]
+  },
+  "evaluate-reverse-polish-notation": {
+    "title": "Evaluate Reverse Polish Notation",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "tokens = [\"2\",\"1\",\"+\",\"3\",\"*\"]",
+        "output": "9"
+      },
+      {
+        "input": "tokens = [\"4\",\"13\",\"5\",\"/\",\"+\"]",
+        "output": "6"
+      },
+      {
+        "input": "tokens = [\"10\",\"6\",\"9\",\"3\",\"+\",\"-11\",\"*\",\"/\",\"*\",\"17\",\"+\",\"5\",\"+\"]",
+        "output": "22"
+      }
+    ]
+  },
+  "reverse-words-in-a-string": {
+    "title": "Reverse Words in a String",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "s = \"the sky is blue\"",
+        "output": "\"blue is sky the\""
+      },
+      {
+        "input": "s = \"  hello world  \"",
+        "output": "\"world hello\""
+      },
+      {
+        "input": "s = \"a good   example\"",
+        "output": "\"example good a\""
+      }
+    ]
+  },
+  "maximum-product-subarray": {
+    "title": "Maximum Product Subarray",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "nums = [2,3,-2,4]",
+        "output": "6"
+      },
+      {
+        "input": "nums = [-2,0,-1]",
+        "output": "0"
+      }
+    ]
+  },
+  "find-minimum-in-rotated-sorted-array": {
+    "title": "Find Minimum in Rotated Sorted Array",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "nums = [3,4,5,1,2]",
+        "output": "1"
+      },
+      {
+        "input": "nums = [4,5,6,7,0,1,2]",
+        "output": "0"
+      },
+      {
+        "input": "nums = [11,13,15,17]",
+        "output": "11"
+      }
+    ]
+  },
+  "find-minimum-in-rotated-sorted-array-ii": {
+    "title": "Find Minimum in Rotated Sorted Array II",
+    "difficulty": "Hard",
+    "testcases": [
+      {
+        "input": "nums = [1,3,5]",
+        "output": "1"
+      },
+      {
+        "input": "nums = [2,2,2,0,1]",
+        "output": "0"
+      }
+    ]
+  },
+  "min-stack": {
+    "title": "Min Stack",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "[\"MinStack\",\"push\",\"push\",\"push\",\"getMin\",\"pop\",\"top\",\"getMin\"]\n[[],[-2],[0],[-3],[],[],[],[]]",
+        "output": "[null,null,null,null,-3,null,0,-2]\n\nExplanation\nMinStack minStack = new MinStack();\nminStack.push(-2);\nminStack.push(0);\nminStack.push(-3);\nminStack.getMin(); // return -3\nminStack.pop();\nminStack.top();    // return 0\nminStack.getMin(); // return -2"
+      }
+    ]
+  },
+  "intersection-of-two-linked-lists": {
+    "title": "Intersection of Two Linked Lists",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "intersectVal = 8, listA = [4,1,8,4,5], listB = [5,6,1,8,4,5], skipA = 2, skipB = 3",
+        "output": "Intersected at '8'"
+      },
+      {
+        "input": "intersectVal = 2, listA = [1,9,1,2,4], listB = [3,2,4], skipA = 3, skipB = 1",
+        "output": "Intersected at '2'"
+      },
+      {
+        "input": "intersectVal = 0, listA = [2,6,4], listB = [1,5], skipA = 3, skipB = 2",
+        "output": "No intersection"
+      }
+    ]
+  },
+  "find-peak-element": {
+    "title": "Find Peak Element",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "nums = [1,2,3,1]",
+        "output": "2"
+      },
+      {
+        "input": "nums = [1,2,1,3,5,6,4]",
+        "output": "5"
+      }
+    ]
+  },
+  "maximum-gap": {
+    "title": "Maximum Gap",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "nums = [3,6,9,1]",
+        "output": "3"
+      },
+      {
+        "input": "nums = [10]",
+        "output": "0"
+      }
+    ]
+  },
+  "fraction-to-recurring-decimal": {
+    "title": "Fraction to Recurring Decimal",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "numerator = 1, denominator = 2",
+        "output": "\"0.5\""
+      },
+      {
+        "input": "numerator = 2, denominator = 1",
+        "output": "\"2\""
+      },
+      {
+        "input": "numerator = 4, denominator = 333",
+        "output": "\"0.(012)\""
+      }
+    ]
+  },
+  "two-sum-ii-input-array-is-sorted": {
+    "title": "Two Sum II - Input Array Is Sorted",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "numbers = [2,7,11,15], target = 9",
+        "output": "[1,2]"
+      },
+      {
+        "input": "numbers = [2,3,4], target = 6",
+        "output": "[1,3]"
+      },
+      {
+        "input": "numbers = [-1,0], target = -1",
+        "output": "[1,2]"
+      }
+    ]
+  },
+  "excel-sheet-column-title": {
+    "title": "Excel Sheet Column Title",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "A -> 1",
+        "output": "B -> 2"
+      },
+      {
+        "input": "columnNumber = 1",
+        "output": "\"A\""
+      },
+      {
+        "input": "columnNumber = 28",
+        "output": "\"AB\""
+      },
+      {
+        "input": "columnNumber = 701",
+        "output": "\"ZY\""
+      }
+    ]
+  },
+  "majority-element": {
+    "title": "Majority Element",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "nums = [3,2,3]",
+        "output": "3"
+      },
+      {
+        "input": "nums = [2,2,1,1,1,2,2]",
+        "output": "2"
+      }
+    ]
+  },
+  "excel-sheet-column-number": {
+    "title": "Excel Sheet Column Number",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "A -> 1",
+        "output": "B -> 2"
+      },
+      {
+        "input": "columnTitle = \"A\"",
+        "output": "1"
+      },
+      {
+        "input": "columnTitle = \"AB\"",
+        "output": "28"
+      },
+      {
+        "input": "columnTitle = \"ZY\"",
+        "output": "701"
+      }
+    ]
+  },
+  "factorial-trailing-zeroes": {
+    "title": "Factorial Trailing Zeroes",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "n = 3",
+        "output": "0"
+      },
+      {
+        "input": "n = 5",
+        "output": "1"
+      },
+      {
+        "input": "n = 0",
+        "output": "0"
+      }
+    ]
+  },
+  "binary-search-tree-iterator": {
+    "title": "Binary Search Tree Iterator",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "[\"BSTIterator\", \"next\", \"next\", \"hasNext\", \"next\", \"hasNext\", \"next\", \"hasNext\", \"next\", \"hasNext\"]\n[[[7, 3, 15, null, null, 9, 20]], [], [], [], [], [], [], [], [], []]",
+        "output": "[null, 3, 7, true, 9, true, 15, true, 20, false]\n\nExplanation\nBSTIterator bSTIterator = new BSTIterator([7, 3, 15, null, null, 9, 20]);\nbSTIterator.next();    // return 3\nbSTIterator.next();    // return 7\nbSTIterator.hasNext(); // return True\nbSTIterator.next();    // return 9\nbSTIterator.hasNext(); // return True\nbSTIterator.next();    // return 15\nbSTIterator.hasNext(); // return True\nbSTIterator.next();    // return 20\nbSTIterator.hasNext(); // return False"
+      }
+    ]
+  },
+  "dungeon-game": {
+    "title": "Dungeon Game",
+    "difficulty": "Hard",
+    "testcases": [
+      {
+        "input": "dungeon = [[-2,-3,3],[-5,-10,1],[10,30,-5]]",
+        "output": "7"
+      },
+      {
+        "input": "dungeon = [[0]]",
+        "output": "1"
+      }
+    ]
+  },
+  "combine-two-tables": {
+    "title": "Combine Two Tables",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "+-------------+---------+",
+        "output": "| Column Name | Type    |"
+      },
+      {
+        "input": "+-------------+---------+",
+        "output": "| Column Name | Type    |"
+      },
+      {
+        "input": "Person table:\n+----------+----------+-----------+\n| personId | lastName | firstName |\n+----------+----------+-----------+\n| 1        | Wang     | Allen     |\n| 2        | Alice    | Bob       |\n+----------+----------+-----------+\nAddress table:\n+-----------+----------+---------------+------------+\n| addressId | personId | city          | state      |\n+-----------+----------+---------------+------------+\n| 1         | 2        | New York City | New York   |\n| 2         | 3        | Leetcode      | California |\n+-----------+----------+---------------+------------+",
+        "output": "+-----------+----------+---------------+----------+\n| firstName | lastName | city          | state    |\n+-----------+----------+---------------+----------+\n| Allen     | Wang     | Null          | Null     |\n| Bob       | Alice    | New York City | New York |\n+-----------+----------+---------------+----------+"
+      }
+    ]
+  },
+  "second-highest-salary": {
+    "title": "Second Highest Salary",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "+-------------+------+",
+        "output": "| Column Name | Type |"
+      },
+      {
+        "input": "Employee table:\n+----+--------+\n| id | salary |\n+----+--------+\n| 1  | 100    |\n| 2  | 200    |\n| 3  | 300    |\n+----+--------+",
+        "output": "+---------------------+\n| SecondHighestSalary |\n+---------------------+\n| 200                 |\n+---------------------+"
+      },
+      {
+        "input": "Employee table:\n+----+--------+\n| id | salary |\n+----+--------+\n| 1  | 100    |\n+----+--------+",
+        "output": "+---------------------+\n| SecondHighestSalary |\n+---------------------+\n| null                |\n+---------------------+"
+      }
+    ]
+  },
+  "nth-highest-salary": {
+    "title": "Nth Highest Salary",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "+-------------+------+",
+        "output": "| Column Name | Type |"
+      },
+      {
+        "input": "Employee table:\n+----+--------+\n| id | salary |\n+----+--------+\n| 1  | 100    |\n| 2  | 200    |\n| 3  | 300    |\n+----+--------+\nn = 2",
+        "output": "+------------------------+\n| getNthHighestSalary(2) |\n+------------------------+\n| 200                    |\n+------------------------+"
+      },
+      {
+        "input": "Employee table:\n+----+--------+\n| id | salary |\n+----+--------+\n| 1  | 100    |\n+----+--------+\nn = 2",
+        "output": "+------------------------+\n| getNthHighestSalary(2) |\n+------------------------+\n| null                   |\n+------------------------+"
+      }
+    ]
+  },
+  "rank-scores": {
+    "title": "Rank Scores",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "+-------------+---------+",
+        "output": "| Column Name | Type    |"
+      },
+      {
+        "input": "Scores table:\n+----+-------+\n| id | score |\n+----+-------+\n| 1  | 3.50  |\n| 2  | 3.65  |\n| 3  | 4.00  |\n| 4  | 3.85  |\n| 5  | 4.00  |\n| 6  | 3.65  |\n+----+-------+",
+        "output": "+-------+------+\n| score | rank |\n+-------+------+\n| 4.00  | 1    |\n| 4.00  | 1    |\n| 3.85  | 2    |\n| 3.65  | 3    |\n| 3.65  | 3    |\n| 3.50  | 4    |\n+-------+------+"
+      }
+    ]
+  },
+  "largest-number": {
+    "title": "Largest Number",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "nums = [10,2]",
+        "output": "\"210\""
+      },
+      {
+        "input": "nums = [3,30,34,5,9]",
+        "output": "\"9534330\""
+      }
+    ]
+  },
+  "consecutive-numbers": {
+    "title": "Consecutive Numbers",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "+-------------+---------+",
+        "output": "| Column Name | Type    |"
+      },
+      {
+        "input": "Logs table:\n+----+-----+\n| id | num |\n+----+-----+\n| 1  | 1   |\n| 2  | 1   |\n| 3  | 1   |\n| 4  | 2   |\n| 5  | 1   |\n| 6  | 2   |\n| 7  | 2   |\n+----+-----+",
+        "output": "+-----------------+\n| ConsecutiveNums |\n+-----------------+\n| 1               |\n+-----------------+"
+      }
+    ]
+  },
+  "employees-earning-more-than-their-managers": {
+    "title": "Employees Earning More Than Their Managers",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "+-------------+---------+",
+        "output": "| Column Name | Type    |"
+      },
+      {
+        "input": "Employee table:\n+----+-------+--------+-----------+\n| id | name  | salary | managerId |\n+----+-------+--------+-----------+\n| 1  | Joe   | 70000  | 3         |\n| 2  | Henry | 80000  | 4         |\n| 3  | Sam   | 60000  | Null      |\n| 4  | Max   | 90000  | Null      |\n+----+-------+--------+-----------+",
+        "output": "+----------+\n| Employee |\n+----------+\n| Joe      |\n+----------+"
+      }
+    ]
+  },
+  "duplicate-emails": {
+    "title": "Duplicate Emails",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "+-------------+---------+",
+        "output": "| Column Name | Type    |"
+      },
+      {
+        "input": "Person table:\n+----+---------+\n| id | email   |\n+----+---------+\n| 1  | a@b.com |\n| 2  | c@d.com |\n| 3  | a@b.com |\n+----+---------+",
+        "output": "+---------+\n| Email   |\n+---------+\n| a@b.com |\n+---------+"
+      }
+    ]
+  },
+  "customers-who-never-order": {
+    "title": "Customers Who Never Order",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "+-------------+---------+",
+        "output": "| Column Name | Type    |"
+      },
+      {
+        "input": "+-------------+------+",
+        "output": "| Column Name | Type |"
+      },
+      {
+        "input": "Customers table:\n+----+-------+\n| id | name  |\n+----+-------+\n| 1  | Joe   |\n| 2  | Henry |\n| 3  | Sam   |\n| 4  | Max   |\n+----+-------+\nOrders table:\n+----+------------+\n| id | customerId |\n+----+------------+\n| 1  | 3          |\n| 2  | 1          |\n+----+------------+",
+        "output": "+-----------+\n| Customers |\n+-----------+\n| Henry     |\n| Max       |\n+-----------+"
+      }
+    ]
+  },
+  "department-highest-salary": {
+    "title": "Department Highest Salary",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "+--------------+---------+",
+        "output": "| Column Name  | Type    |"
+      },
+      {
+        "input": "+-------------+---------+",
+        "output": "| Column Name | Type    |"
+      },
+      {
+        "input": "Employee table:\n+----+-------+--------+--------------+\n| id | name  | salary | departmentId |\n+----+-------+--------+--------------+\n| 1  | Joe   | 70000  | 1            |\n| 2  | Jim   | 90000  | 1            |\n| 3  | Henry | 80000  | 2            |\n| 4  | Sam   | 60000  | 2            |\n| 5  | Max   | 90000  | 1            |\n+----+-------+--------+--------------+\nDepartment table:\n+----+-------+\n| id | name  |\n+----+-------+\n| 1  | IT    |\n| 2  | Sales |\n+----+-------+",
+        "output": "+------------+----------+--------+\n| Department | Employee | Salary |\n+------------+----------+--------+\n| IT         | Jim      | 90000  |\n| Sales      | Henry    | 80000  |\n| IT         | Max      | 90000  |\n+------------+----------+--------+"
+      }
+    ]
+  },
+  "department-top-three-salaries": {
+    "title": "Department Top Three Salaries",
+    "difficulty": "Hard",
+    "testcases": [
+      {
+        "input": "+--------------+---------+",
+        "output": "| Column Name  | Type    |"
+      },
+      {
+        "input": "+-------------+---------+",
+        "output": "| Column Name | Type    |"
+      },
+      {
+        "input": "Employee table:\n+----+-------+--------+--------------+\n| id | name  | salary | departmentId |\n+----+-------+--------+--------------+\n| 1  | Joe   | 85000  | 1            |\n| 2  | Henry | 80000  | 2            |\n| 3  | Sam   | 60000  | 2            |\n| 4  | Max   | 90000  | 1            |\n| 5  | Janet | 69000  | 1            |\n| 6  | Randy | 85000  | 1            |\n| 7  | Will  | 70000  | 1            |\n+----+-------+--------+--------------+\nDepartment table:\n+----+-------+\n| id | name  |\n+----+-------+\n| 1  | IT    |\n| 2  | Sales |\n+----+-------+",
+        "output": "+------------+----------+--------+\n| Department | Employee | Salary |\n+------------+----------+--------+\n| IT         | Max      | 90000  |\n| IT         | Joe      | 85000  |\n| IT         | Randy    | 85000  |\n| IT         | Will     | 70000  |\n| Sales      | Henry    | 80000  |\n| Sales      | Sam      | 60000  |\n+------------+----------+--------+"
+      }
+    ]
+  },
+  "repeated-dna-sequences": {
+    "title": "Repeated DNA Sequences",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "s = \"AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT\"",
+        "output": "[\"AAAAACCCCC\",\"CCCCCAAAAA\"]"
+      },
+      {
+        "input": "s = \"AAAAAAAAAAAAA\"",
+        "output": "[\"AAAAAAAAAA\"]"
+      }
+    ]
+  },
+  "best-time-to-buy-and-sell-stock-iv": {
+    "title": "Best Time to Buy and Sell Stock IV",
+    "difficulty": "Hard",
+    "testcases": [
+      {
+        "input": "k = 2, prices = [2,4,1]",
+        "output": "2"
+      },
+      {
+        "input": "k = 2, prices = [3,2,6,5,0,3]",
+        "output": "7"
+      }
+    ]
+  },
+  "rotate-array": {
+    "title": "Rotate Array",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "nums = [1,2,3,4,5,6,7], k = 3",
+        "output": "[5,6,7,1,2,3,4]"
+      },
+      {
+        "input": "nums = [-1,-100,3,99], k = 2",
+        "output": "[3,99,-1,-100]"
+      }
+    ]
+  },
+  "word-frequency": {
+    "title": "Word Frequency",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "the day is sunny the the",
+        "output": "the sunny is is"
+      },
+      {
+        "input": "the 4",
+        "output": "is 3"
+      }
+    ]
+  },
+  "valid-phone-numbers": {
+    "title": "Valid Phone Numbers",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "987-123-4567",
+        "output": "123 456 7890"
+      },
+      {
+        "input": "987-123-4567",
+        "output": "(123) 456-7890"
+      }
+    ]
+  },
+  "transpose-file": {
+    "title": "Transpose File",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "name age",
+        "output": "alice 21"
+      },
+      {
+        "input": "name alice ryan",
+        "output": "age 21 30"
+      }
+    ]
+  },
+  "tenth-line": {
+    "title": "Tenth Line",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "Line 1",
+        "output": "Line 2"
+      }
+    ]
+  },
+  "delete-duplicate-emails": {
+    "title": "Delete Duplicate Emails",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "+-------------+---------+",
+        "output": "| Column Name | Type    |"
+      },
+      {
+        "input": "Person table:\n+----+------------------+\n| id | email            |\n+----+------------------+\n| 1  | john@example.com |\n| 2  | bob@example.com  |\n| 3  | john@example.com |\n+----+------------------+",
+        "output": "+----+------------------+\n| id | email            |\n+----+------------------+\n| 1  | john@example.com |\n| 2  | bob@example.com  |\n+----+------------------+"
+      }
+    ]
+  },
+  "rising-temperature": {
+    "title": "Rising Temperature",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "+---------------+---------+",
+        "output": "| Column Name   | Type    |"
+      },
+      {
+        "input": "Weather table:\n+----+------------+-------------+\n| id | recordDate | temperature |\n+----+------------+-------------+\n| 1  | 2015-01-01 | 10          |\n| 2  | 2015-01-02 | 25          |\n| 3  | 2015-01-03 | 20          |\n| 4  | 2015-01-04 | 30          |\n+----+------------+-------------+",
+        "output": "+----+\n| id |\n+----+\n| 2  |\n| 4  |\n+----+"
+      }
+    ]
+  },
+  "house-robber": {
+    "title": "House Robber",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "nums = [1,2,3,1]",
+        "output": "4"
+      },
+      {
+        "input": "nums = [2,7,9,3,1]",
+        "output": "12"
+      }
+    ]
+  },
+  "number-of-islands": {
+    "title": "Number of Islands",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "grid = [\n  [\"1\",\"1\",\"1\",\"1\",\"0\"],\n  [\"1\",\"1\",\"0\",\"1\",\"0\"],\n  [\"1\",\"1\",\"0\",\"0\",\"0\"],\n  [\"0\",\"0\",\"0\",\"0\",\"0\"]\n]",
+        "output": "1"
+      },
+      {
+        "input": "grid = [\n  [\"1\",\"1\",\"0\",\"0\",\"0\"],\n  [\"1\",\"1\",\"0\",\"0\",\"0\"],\n  [\"0\",\"0\",\"1\",\"0\",\"0\"],\n  [\"0\",\"0\",\"0\",\"1\",\"1\"]\n]",
+        "output": "3"
+      }
+    ]
+  },
+  "bitwise-and-of-numbers-range": {
+    "title": "Bitwise AND of Numbers Range",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "left = 5, right = 7",
+        "output": "4"
+      },
+      {
+        "input": "left = 0, right = 0",
+        "output": "0"
+      },
+      {
+        "input": "left = 1, right = 2147483647",
+        "output": "0"
+      }
+    ]
+  },
+  "happy-number": {
+    "title": "Happy Number",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "n = 19",
+        "output": "true"
+      },
+      {
+        "input": "n = 2",
+        "output": "false"
+      }
+    ]
+  },
+  "remove-linked-list-elements": {
+    "title": "Remove Linked List Elements",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "head = [1,2,6,3,4,5,6], val = 6",
+        "output": "[1,2,3,4,5]"
+      },
+      {
+        "input": "head = [], val = 1",
+        "output": "[]"
+      },
+      {
+        "input": "head = [7,7,7,7], val = 7",
+        "output": "[]"
+      }
+    ]
+  },
+  "count-primes": {
+    "title": "Count Primes",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "n = 10",
+        "output": "4"
+      },
+      {
+        "input": "n = 0",
+        "output": "0"
+      },
+      {
+        "input": "n = 1",
+        "output": "0"
+      }
+    ]
+  },
+  "reverse-linked-list": {
+    "title": "Reverse Linked List",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "head = [1,2,3,4,5]",
+        "output": "[5,4,3,2,1]"
+      },
+      {
+        "input": "head = [1,2]",
+        "output": "[2,1]"
+      },
+      {
+        "input": "head = []",
+        "output": "[]"
+      }
+    ]
+  },
+  "course-schedule": {
+    "title": "Course Schedule",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "numCourses = 2, prerequisites = [[1,0]]",
+        "output": "true"
+      },
+      {
+        "input": "numCourses = 2, prerequisites = [[1,0],[0,1]]",
+        "output": "false"
+      }
+    ]
+  },
+  "implement-trie-prefix-tree": {
+    "title": "Implement Trie (Prefix Tree)",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "[\"Trie\", \"insert\", \"search\", \"search\", \"startsWith\", \"insert\", \"search\"]\n[[], [\"apple\"], [\"apple\"], [\"app\"], [\"app\"], [\"app\"], [\"app\"]]",
+        "output": "[null, null, true, false, true, null, true]\n\nExplanation\nTrie trie = new Trie();\ntrie.insert(\"apple\");\ntrie.search(\"apple\");   // return True\ntrie.search(\"app\");     // return False\ntrie.startsWith(\"app\"); // return True\ntrie.insert(\"app\");\ntrie.search(\"app\");     // return True"
+      }
+    ]
+  },
+  "minimum-size-subarray-sum": {
+    "title": "Minimum Size Subarray Sum",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "target = 7, nums = [2,3,1,2,4,3]",
+        "output": "2"
+      },
+      {
+        "input": "target = 4, nums = [1,4,4]",
+        "output": "1"
+      },
+      {
+        "input": "target = 11, nums = [1,1,1,1,1,1,1,1]",
+        "output": "0"
+      }
+    ]
+  },
+  "course-schedule-ii": {
+    "title": "Course Schedule II",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "numCourses = 2, prerequisites = [[1,0]]",
+        "output": "[0,1]"
+      },
+      {
+        "input": "numCourses = 4, prerequisites = [[1,0],[2,0],[3,1],[3,2]]",
+        "output": "[0,2,1,3]"
+      },
+      {
+        "input": "numCourses = 1, prerequisites = []",
+        "output": "[0]"
+      }
+    ]
+  },
+  "design-add-and-search-words-data-structure": {
+    "title": "Design Add and Search Words Data Structure",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "[\"WordDictionary\",\"addWord\",\"addWord\",\"addWord\",\"search\",\"search\",\"search\",\"search\"]\n[[],[\"bad\"],[\"dad\"],[\"mad\"],[\"pad\"],[\"bad\"],[\".ad\"],[\"b..\"]]",
+        "output": "[null,null,null,null,false,true,true,true]\n\nExplanation\nWordDictionary wordDictionary = new WordDictionary();\nwordDictionary.addWord(\"bad\");\nwordDictionary.addWord(\"dad\");\nwordDictionary.addWord(\"mad\");\nwordDictionary.search(\"pad\"); // return False\nwordDictionary.search(\"bad\"); // return True\nwordDictionary.search(\".ad\"); // return True\nwordDictionary.search(\"b..\"); // return True"
+      }
+    ]
+  },
+  "word-search-ii": {
+    "title": "Word Search II",
+    "difficulty": "Hard",
+    "testcases": [
+      {
+        "input": "board = [[\"o\",\"a\",\"a\",\"n\"],[\"e\",\"t\",\"a\",\"e\"],[\"i\",\"h\",\"k\",\"r\"],[\"i\",\"f\",\"l\",\"v\"]], words = [\"oath\",\"pea\",\"eat\",\"rain\"]",
+        "output": "[\"eat\",\"oath\"]"
+      },
+      {
+        "input": "board = [[\"a\",\"b\"],[\"c\",\"d\"]], words = [\"abcb\"]",
+        "output": "[]"
+      }
+    ]
+  },
+  "house-robber-ii": {
+    "title": "House Robber II",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "nums = [2,3,2]",
+        "output": "3"
+      },
+      {
+        "input": "nums = [1,2,3,1]",
+        "output": "4"
+      },
+      {
+        "input": "nums = [1,2,3]",
+        "output": "3"
+      }
+    ]
+  },
+  "shortest-palindrome": {
+    "title": "Shortest Palindrome",
+    "difficulty": "Hard",
+    "testcases": [
+      {
+        "input": "s = \"aacecaaa\"",
+        "output": "\"aaacecaaa\""
+      },
+      {
+        "input": "s = \"abcd\"",
+        "output": "\"dcbabcd\""
+      }
+    ]
+  },
+  "kth-largest-element-in-an-array": {
+    "title": "Kth Largest Element in an Array",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "nums = [3,2,1,5,6,4], k = 2",
+        "output": "5"
+      },
+      {
+        "input": "nums = [3,2,3,1,2,4,5,5,6], k = 4",
+        "output": "4"
+      }
+    ]
+  },
+  "combination-sum-iii": {
+    "title": "Combination Sum III",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "k = 3, n = 7",
+        "output": "[[1,2,4]]"
+      },
+      {
+        "input": "k = 3, n = 9",
+        "output": "[[1,2,6],[1,3,5],[2,3,4]]"
+      },
+      {
+        "input": "k = 4, n = 1",
+        "output": "[]"
+      }
+    ]
+  },
+  "the-skyline-problem": {
+    "title": "The Skyline Problem",
+    "difficulty": "Hard",
+    "testcases": [
+      {
+        "input": "buildings = [[2,9,10],[3,7,15],[5,12,12],[15,20,10],[19,24,8]]",
+        "output": "[[2,10],[3,15],[7,12],[12,0],[15,10],[20,8],[24,0]]"
+      },
+      {
+        "input": "buildings = [[0,2,3],[2,5,3]]",
+        "output": "[[0,3],[5,0]]"
+      }
+    ]
+  },
+  "contains-duplicate-ii": {
+    "title": "Contains Duplicate II",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "nums = [1,2,3,1], k = 3",
+        "output": "true"
+      },
+      {
+        "input": "nums = [1,0,1,1], k = 1",
+        "output": "true"
+      },
+      {
+        "input": "nums = [1,2,3,1,2,3], k = 2",
+        "output": "false"
+      }
+    ]
+  },
+  "contains-duplicate-iii": {
+    "title": "Contains Duplicate III",
+    "difficulty": "Hard",
+    "testcases": [
+      {
+        "input": "nums = [1,2,3,1], indexDiff = 3, valueDiff = 0",
+        "output": "true"
+      },
+      {
+        "input": "nums = [1,5,9,1,5,9], indexDiff = 2, valueDiff = 3",
+        "output": "false"
+      }
+    ]
+  },
+  "maximal-square": {
+    "title": "Maximal Square",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "matrix = [[\"1\",\"0\",\"1\",\"0\",\"0\"],[\"1\",\"0\",\"1\",\"1\",\"1\"],[\"1\",\"1\",\"1\",\"1\",\"1\"],[\"1\",\"0\",\"0\",\"1\",\"0\"]]",
+        "output": "4"
+      },
+      {
+        "input": "matrix = [[\"0\",\"1\"],[\"1\",\"0\"]]",
+        "output": "1"
+      },
+      {
+        "input": "matrix = [[\"0\"]]",
+        "output": "0"
+      }
+    ]
+  },
+  "count-complete-tree-nodes": {
+    "title": "Count Complete Tree Nodes",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "root = [1,2,3,4,5,6]",
+        "output": "6"
+      },
+      {
+        "input": "root = []",
+        "output": "0"
+      },
+      {
+        "input": "root = [1]",
+        "output": "1"
+      }
+    ]
+  },
+  "rectangle-area": {
+    "title": "Rectangle Area",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "ax1 = -3, ay1 = 0, ax2 = 3, ay2 = 4, bx1 = 0, by1 = -1, bx2 = 9, by2 = 2",
+        "output": "45"
+      },
+      {
+        "input": "ax1 = -2, ay1 = -2, ax2 = 2, ay2 = 2, bx1 = -2, by1 = -2, bx2 = 2, by2 = 2",
+        "output": "16"
+      }
+    ]
+  },
+  "basic-calculator": {
+    "title": "Basic Calculator",
+    "difficulty": "Hard",
+    "testcases": [
+      {
+        "input": "s = \"1 + 1\"",
+        "output": "2"
+      },
+      {
+        "input": "s = \" 2-1 + 2 \"",
+        "output": "3"
+      },
+      {
+        "input": "s = \"(1+(4+5+2)-3)+(6+8)\"",
+        "output": "23"
+      }
+    ]
+  },
+  "implement-stack-using-queues": {
+    "title": "Implement Stack using Queues",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "[\"MyStack\", \"push\", \"push\", \"top\", \"pop\", \"empty\"]\n[[], [1], [2], [], [], []]",
+        "output": "[null, null, null, 2, 2, false]\n\nExplanation\nMyStack myStack = new MyStack();\nmyStack.push(1);\nmyStack.push(2);\nmyStack.top(); // return 2\nmyStack.pop(); // return 2\nmyStack.empty(); // return False"
+      }
+    ]
+  },
+  "invert-binary-tree": {
+    "title": "Invert Binary Tree",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "root = [4,2,7,1,3,6,9]",
+        "output": "[4,7,2,9,6,3,1]"
+      },
+      {
+        "input": "root = [2,1,3]",
+        "output": "[2,3,1]"
+      },
+      {
+        "input": "root = []",
+        "output": "[]"
+      }
+    ]
+  },
+  "basic-calculator-ii": {
+    "title": "Basic Calculator II",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "s = \"3+2*2\"",
+        "output": "7"
+      },
+      {
+        "input": "s = \" 3/2 \"",
+        "output": "1"
+      },
+      {
+        "input": "s = \" 3+5 / 2 \"",
+        "output": "5"
+      }
+    ]
+  },
+  "summary-ranges": {
+    "title": "Summary Ranges",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "nums = [0,1,2,4,5,7]",
+        "output": "[\"0->2\",\"4->5\",\"7\"]"
+      },
+      {
+        "input": "nums = [0,2,3,4,6,8,9]",
+        "output": "[\"0\",\"2->4\",\"6\",\"8->9\"]"
+      }
+    ]
+  },
+  "majority-element-ii": {
+    "title": "Majority Element II",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "nums = [3,2,3]",
+        "output": "[3]"
+      },
+      {
+        "input": "nums = [1]",
+        "output": "[1]"
+      },
+      {
+        "input": "nums = [1,2]",
+        "output": "[1,2]"
+      }
+    ]
+  },
+  "kth-smallest-element-in-a-bst": {
+    "title": "Kth Smallest Element in a BST",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "root = [3,1,4,null,2], k = 1",
+        "output": "1"
+      },
+      {
+        "input": "root = [5,3,6,2,4,null,null,1], k = 3",
+        "output": "3"
+      }
+    ]
+  },
+  "power-of-two": {
+    "title": "Power of Two",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "n = 1",
+        "output": "true"
+      },
+      {
+        "input": "n = 16",
+        "output": "true"
+      },
+      {
+        "input": "n = 3",
+        "output": "false"
+      }
+    ]
+  },
+  "implement-queue-using-stacks": {
+    "title": "Implement Queue using Stacks",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "[\"MyQueue\", \"push\", \"push\", \"peek\", \"pop\", \"empty\"]\n[[], [1], [2], [], [], []]",
+        "output": "[null, null, null, 1, 1, false]\n\nExplanation\nMyQueue myQueue = new MyQueue();\nmyQueue.push(1); // queue is: [1]\nmyQueue.push(2); // queue is: [1, 2] (leftmost is front of the queue)\nmyQueue.peek(); // return 1\nmyQueue.pop(); // return 1, queue is [2]\nmyQueue.empty(); // return false"
+      }
+    ]
+  },
+  "number-of-digit-one": {
+    "title": "Number of Digit One",
+    "difficulty": "Hard",
+    "testcases": [
+      {
+        "input": "n = 13",
+        "output": "6"
+      },
+      {
+        "input": "n = 0",
+        "output": "0"
+      }
+    ]
+  },
+  "palindrome-linked-list": {
+    "title": "Palindrome Linked List",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "head = [1,2,2,1]",
+        "output": "true"
+      },
+      {
+        "input": "head = [1,2]",
+        "output": "false"
+      }
+    ]
+  },
+  "lowest-common-ancestor-of-a-binary-search-tree": {
+    "title": "Lowest Common Ancestor of a Binary Search Tree",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "root = [6,2,8,0,4,7,9,null,null,3,5], p = 2, q = 8",
+        "output": "6"
+      },
+      {
+        "input": "root = [6,2,8,0,4,7,9,null,null,3,5], p = 2, q = 4",
+        "output": "2"
+      },
+      {
+        "input": "root = [2,1], p = 2, q = 1",
+        "output": "2"
+      }
+    ]
+  },
+  "lowest-common-ancestor-of-a-binary-tree": {
+    "title": "Lowest Common Ancestor of a Binary Tree",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "root = [3,5,1,6,2,0,8,null,null,7,4], p = 5, q = 1",
+        "output": "3"
+      },
+      {
+        "input": "root = [3,5,1,6,2,0,8,null,null,7,4], p = 5, q = 4",
+        "output": "5"
+      },
+      {
+        "input": "root = [1,2], p = 1, q = 2",
+        "output": "1"
+      }
+    ]
+  },
+  "delete-node-in-a-linked-list": {
+    "title": "Delete Node in a Linked List",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "head = [4,5,1,9], node = 5",
+        "output": "[4,1,9]"
+      },
+      {
+        "input": "head = [4,5,1,9], node = 1",
+        "output": "[4,5,9]"
+      }
+    ]
+  },
+  "product-of-array-except-self": {
+    "title": "Product of Array Except Self",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "nums = [1,2,3,4]",
+        "output": "[24,12,8,6]"
+      },
+      {
+        "input": "nums = [-1,1,0,-3,3]",
+        "output": "[0,0,9,0,0]"
+      }
+    ]
+  },
+  "sliding-window-maximum": {
+    "title": "Sliding Window Maximum",
+    "difficulty": "Hard",
+    "testcases": [
+      {
+        "input": "nums = [1,3,-1,-3,5,3,6,7], k = 3",
+        "output": "[3,3,5,5,6,7]"
+      },
+      {
+        "input": "nums = [1], k = 1",
+        "output": "[1]"
+      }
+    ]
+  },
+  "search-a-2d-matrix-ii": {
+    "title": "Search a 2D Matrix II",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "matrix = [[1,4,7,11,15],[2,5,8,12,19],[3,6,9,16,22],[10,13,14,17,24],[18,21,23,26,30]], target = 5",
+        "output": "true"
+      },
+      {
+        "input": "matrix = [[1,4,7,11,15],[2,5,8,12,19],[3,6,9,16,22],[10,13,14,17,24],[18,21,23,26,30]], target = 20",
+        "output": "false"
+      }
+    ]
+  },
+  "different-ways-to-add-parentheses": {
+    "title": "Different Ways to Add Parentheses",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "expression = \"2-1-1\"",
+        "output": "[0,2]"
+      },
+      {
+        "input": "expression = \"2*3-4*5\"",
+        "output": "[-34,-14,-10,-10,10]"
+      }
+    ]
+  },
+  "binary-tree-paths": {
+    "title": "Binary Tree Paths",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "root = [1,2,3,null,5]",
+        "output": "[\"1->2->5\",\"1->3\"]"
+      },
+      {
+        "input": "root = [1]",
+        "output": "[\"1\"]"
+      }
+    ]
+  },
+  "add-digits": {
+    "title": "Add Digits",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "num = 38",
+        "output": "2"
+      },
+      {
+        "input": "num = 0",
+        "output": "0"
+      }
+    ]
+  },
+  "single-number-iii": {
+    "title": "Single Number III",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "nums = [1,2,1,3,2,5]",
+        "output": "[3,5]"
+      },
+      {
+        "input": "nums = [-1,0]",
+        "output": "[-1,0]"
+      },
+      {
+        "input": "nums = [0,1]",
+        "output": "[1,0]"
+      }
+    ]
+  },
+  "trips-and-users": {
+    "title": "Trips and Users",
+    "difficulty": "Hard",
+    "testcases": [
+      {
+        "input": "+-------------+----------+",
+        "output": "| Column Name | Type     |"
+      },
+      {
+        "input": "+-------------+----------+",
+        "output": "| Column Name | Type     |"
+      },
+      {
+        "input": "Trips table:\n+----+-----------+-----------+---------+---------------------+------------+\n| id | client_id | driver_id | city_id | status              | request_at |\n+----+-----------+-----------+---------+---------------------+------------+\n| 1  | 1         | 10        | 1       | completed           | 2013-10-01 |\n| 2  | 2         | 11        | 1       | cancelled_by_driver | 2013-10-01 |\n| 3  | 3         | 12        | 6       | completed           | 2013-10-01 |\n| 4  | 4         | 13        | 6       | cancelled_by_client | 2013-10-01 |\n| 5  | 1         | 10        | 1       | completed           | 2013-10-02 |\n| 6  | 2         | 11        | 6       | completed           | 2013-10-02 |\n| 7  | 3         | 12        | 6       | completed           | 2013-10-02 |\n| 8  | 2         | 12        | 12      | completed           | 2013-10-03 |\n| 9  | 3         | 10        | 12      | completed           | 2013-10-03 |\n| 10 | 4         | 13        | 12      | cancelled_by_driver | 2013-10-03 |\n+----+-----------+-----------+---------+---------------------+------------+\nUsers table:\n+----------+--------+--------+\n| users_id | banned | role   |\n+----------+--------+--------+\n| 1        | No     | client |\n| 2        | Yes    | client |\n| 3        | No     | client |\n| 4        | No     | client |\n| 10       | No     | driver |\n| 11       | No     | driver |\n| 12       | No     | driver |\n| 13       | No     | driver |\n+----------+--------+--------+",
+        "output": "+------------+-------------------+\n| Day        | Cancellation Rate |\n+------------+-------------------+\n| 2013-10-01 | 0.33              |\n| 2013-10-02 | 0.00              |\n| 2013-10-03 | 0.50              |\n+------------+-------------------+"
+      }
+    ]
+  },
+  "ugly-number": {
+    "title": "Ugly Number",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "n = 6",
+        "output": "true"
+      },
+      {
+        "input": "n = 1",
+        "output": "true"
+      },
+      {
+        "input": "n = 14",
+        "output": "false"
+      }
+    ]
+  },
+  "ugly-number-ii": {
+    "title": "Ugly Number II",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "n = 10",
+        "output": "12"
+      },
+      {
+        "input": "n = 1",
+        "output": "1"
+      }
+    ]
+  },
+  "integer-to-english-words": {
+    "title": "Integer to English Words",
+    "difficulty": "Hard",
+    "testcases": [
+      {
+        "input": "num = 123",
+        "output": "\"One Hundred Twenty Three\""
+      },
+      {
+        "input": "num = 12345",
+        "output": "\"Twelve Thousand Three Hundred Forty Five\""
+      },
+      {
+        "input": "num = 1234567",
+        "output": "\"One Million Two Hundred Thirty Four Thousand Five Hundred Sixty Seven\""
+      }
+    ]
+  },
+  "h-index": {
+    "title": "H-Index",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "citations = [3,0,6,1,5]",
+        "output": "3"
+      },
+      {
+        "input": "citations = [1,3,1]",
+        "output": "1"
+      }
+    ]
+  },
+  "h-index-ii": {
+    "title": "H-Index II",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "citations = [0,1,3,5,6]",
+        "output": "3"
+      },
+      {
+        "input": "citations = [1,2,100]",
+        "output": "2"
+      }
+    ]
+  },
+  "first-bad-version": {
+    "title": "First Bad Version",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "n = 5, bad = 4",
+        "output": "4"
+      },
+      {
+        "input": "n = 1, bad = 1",
+        "output": "1"
+      }
+    ]
+  },
+  "perfect-squares": {
+    "title": "Perfect Squares",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "n = 12",
+        "output": "3"
+      },
+      {
+        "input": "n = 13",
+        "output": "2"
+      }
+    ]
+  },
+  "expression-add-operators": {
+    "title": "Expression Add Operators",
+    "difficulty": "Hard",
+    "testcases": [
+      {
+        "input": "num = \"123\", target = 6",
+        "output": "[\"1*2*3\",\"1+2+3\"]"
+      },
+      {
+        "input": "num = \"232\", target = 8",
+        "output": "[\"2*3+2\",\"2+3*2\"]"
+      },
+      {
+        "input": "num = \"3456237490\", target = 9191",
+        "output": "[]"
+      }
+    ]
+  },
+  "move-zeroes": {
+    "title": "Move Zeroes",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "nums = [0,1,0,3,12]",
+        "output": "[1,3,12,0,0]"
+      },
+      {
+        "input": "nums = [0]",
+        "output": "[0]"
+      }
+    ]
+  },
+  "peeking-iterator": {
+    "title": "Peeking Iterator",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "[\"PeekingIterator\", \"next\", \"peek\", \"next\", \"next\", \"hasNext\"]\n[[[1, 2, 3]], [], [], [], [], []]",
+        "output": "[null, 1, 2, 2, 3, false]\n\nExplanation\nPeekingIterator peekingIterator = new PeekingIterator([1, 2, 3]); // [1,2,3]\npeekingIterator.next();    // return 1, the pointer moves to the next element [1,2,3].\npeekingIterator.peek();    // return 2, the pointer does not move [1,2,3].\npeekingIterator.next();    // return 2, the pointer moves to the next element [1,2,3]\npeekingIterator.next();    // return 3, the pointer moves to the next element [1,2,3]\npeekingIterator.hasNext(); // return False"
+      }
+    ]
+  },
+  "find-the-duplicate-number": {
+    "title": "Find the Duplicate Number",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "nums = [1,3,4,2,2]",
+        "output": "2"
+      },
+      {
+        "input": "nums = [3,1,3,4,2]",
+        "output": "3"
+      },
+      {
+        "input": "nums = [3,3,3,3,3]",
+        "output": "3"
+      }
+    ]
+  },
+  "game-of-life": {
+    "title": "Game of Life",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "board = [[0,1,0],[0,0,1],[1,1,1],[0,0,0]]",
+        "output": "[[0,0,0],[1,0,1],[0,1,1],[0,1,0]]"
+      },
+      {
+        "input": "board = [[1,1],[1,0]]",
+        "output": "[[1,1],[1,1]]"
+      }
+    ]
+  },
+  "nim-game": {
+    "title": "Nim Game",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "n = 4",
+        "output": "false"
+      },
+      {
+        "input": "n = 1",
+        "output": "true"
+      },
+      {
+        "input": "n = 2",
+        "output": "true"
+      }
+    ]
+  },
+  "find-median-from-data-stream": {
+    "title": "Find Median from Data Stream",
+    "difficulty": "Hard",
+    "testcases": [
+      {
+        "input": "[\"MedianFinder\", \"addNum\", \"addNum\", \"findMedian\", \"addNum\", \"findMedian\"]\n[[], [1], [2], [], [3], []]",
+        "output": "[null, null, null, 1.5, null, 2.0]\n\nExplanation\nMedianFinder medianFinder = new MedianFinder();\nmedianFinder.addNum(1);    // arr = [1]\nmedianFinder.addNum(2);    // arr = [1, 2]\nmedianFinder.findMedian(); // return 1.5 (i.e., (1 + 2) / 2)\nmedianFinder.addNum(3);    // arr[1, 2, 3]\nmedianFinder.findMedian(); // return 2.0"
+      }
+    ]
+  },
+  "serialize-and-deserialize-binary-tree": {
+    "title": "Serialize and Deserialize Binary Tree",
+    "difficulty": "Hard",
+    "testcases": [
+      {
+        "input": "root = [1,2,3,null,null,4,5]",
+        "output": "[1,2,3,null,null,4,5]"
+      },
+      {
+        "input": "root = []",
+        "output": "[]"
+      }
+    ]
+  },
+  "bulls-and-cows": {
+    "title": "Bulls and Cows",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "secret = \"1807\", guess = \"7810\"",
+        "output": "\"1A3B\""
+      },
+      {
+        "input": "secret = \"1123\", guess = \"0111\"",
+        "output": "\"1A1B\""
+      }
+    ]
+  },
+  "longest-increasing-subsequence": {
+    "title": "Longest Increasing Subsequence",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "nums = [10,9,2,5,3,7,101,18]",
+        "output": "4"
+      },
+      {
+        "input": "nums = [0,1,0,3,2,3]",
+        "output": "4"
+      },
+      {
+        "input": "nums = [7,7,7,7,7,7,7]",
+        "output": "1"
+      }
+    ]
+  },
+  "remove-invalid-parentheses": {
+    "title": "Remove Invalid Parentheses",
+    "difficulty": "Hard",
+    "testcases": [
+      {
+        "input": "s = \"()())()\"",
+        "output": "[\"(())()\",\"()()()\"]"
+      },
+      {
+        "input": "s = \"(a)())()\"",
+        "output": "[\"(a())()\",\"(a)()()\"]"
+      },
+      {
+        "input": "s = \")(\"",
+        "output": "[\"\"]"
+      }
+    ]
+  },
+  "range-sum-query-immutable": {
+    "title": "Range Sum Query - Immutable",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "[\"NumArray\", \"sumRange\", \"sumRange\", \"sumRange\"]\n[[[-2, 0, 3, -5, 2, -1]], [0, 2], [2, 5], [0, 5]]",
+        "output": "[null, 1, -1, -3]\n\nExplanation\nNumArray numArray = new NumArray([-2, 0, 3, -5, 2, -1]);\nnumArray.sumRange(0, 2); // return (-2) + 0 + 3 = 1\nnumArray.sumRange(2, 5); // return 3 + (-5) + 2 + (-1) = -1\nnumArray.sumRange(0, 5); // return (-2) + 0 + 3 + (-5) + 2 + (-1) = -3"
+      }
+    ]
+  },
+  "range-sum-query-2d-immutable": {
+    "title": "Range Sum Query 2D - Immutable",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "[\"NumMatrix\", \"sumRegion\", \"sumRegion\", \"sumRegion\"]\n[[[[3, 0, 1, 4, 2], [5, 6, 3, 2, 1], [1, 2, 0, 1, 5], [4, 1, 0, 1, 7], [1, 0, 3, 0, 5]]], [2, 1, 4, 3], [1, 1, 2, 2], [1, 2, 2, 4]]",
+        "output": "[null, 8, 11, 12]\n\nExplanation\nNumMatrix numMatrix = new NumMatrix([[3, 0, 1, 4, 2], [5, 6, 3, 2, 1], [1, 2, 0, 1, 5], [4, 1, 0, 1, 7], [1, 0, 3, 0, 5]]);\nnumMatrix.sumRegion(2, 1, 4, 3); // return 8 (i.e sum of the red rectangle)\nnumMatrix.sumRegion(1, 1, 2, 2); // return 11 (i.e sum of the green rectangle)\nnumMatrix.sumRegion(1, 2, 2, 4); // return 12 (i.e sum of the blue rectangle)"
+      }
+    ]
+  },
+  "additive-number": {
+    "title": "Additive Number",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "\"112358\"",
+        "output": "true"
+      },
+      {
+        "input": "\"199100199\"",
+        "output": "true"
+      }
+    ]
+  },
+  "range-sum-query-mutable": {
+    "title": "Range Sum Query - Mutable",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "[\"NumArray\", \"sumRange\", \"update\", \"sumRange\"]\n[[[1, 3, 5]], [0, 2], [1, 2], [0, 2]]",
+        "output": "[null, 9, null, 8]\n\nExplanation\nNumArray numArray = new NumArray([1, 3, 5]);\nnumArray.sumRange(0, 2); // return 1 + 3 + 5 = 9\nnumArray.update(1, 2);   // nums = [1, 2, 5]\nnumArray.sumRange(0, 2); // return 1 + 2 + 5 = 8"
+      }
+    ]
+  },
+  "best-time-to-buy-and-sell-stock-with-cooldown": {
+    "title": "Best Time to Buy and Sell Stock with Cooldown",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "prices = [1,2,3,0,2]",
+        "output": "3"
+      },
+      {
+        "input": "prices = [1]",
+        "output": "0"
+      }
+    ]
+  },
+  "minimum-height-trees": {
+    "title": "Minimum Height Trees",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "n = 4, edges = [[1,0],[1,2],[1,3]]",
+        "output": "[1]"
+      },
+      {
+        "input": "n = 6, edges = [[3,0],[3,1],[3,2],[3,4],[5,4]]",
+        "output": "[3,4]"
+      }
+    ]
+  },
+  "burst-balloons": {
+    "title": "Burst Balloons",
+    "difficulty": "Hard",
+    "testcases": [
+      {
+        "input": "nums = [3,1,5,8]",
+        "output": "167"
+      },
+      {
+        "input": "nums = [1,5]",
+        "output": "10"
+      }
+    ]
+  },
+  "super-ugly-number": {
+    "title": "Super Ugly Number",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "n = 12, primes = [2,7,13,19]",
+        "output": "32"
+      },
+      {
+        "input": "n = 1, primes = [2,3,5]",
+        "output": "1"
+      }
+    ]
+  },
+  "count-of-smaller-numbers-after-self": {
+    "title": "Count of Smaller Numbers After Self",
+    "difficulty": "Hard",
+    "testcases": [
+      {
+        "input": "nums = [5,2,6,1]",
+        "output": "[2,1,1,0]"
+      },
+      {
+        "input": "nums = [-1]",
+        "output": "[0]"
+      },
+      {
+        "input": "nums = [-1,-1]",
+        "output": "[0,0]"
+      }
+    ]
+  },
+  "remove-duplicate-letters": {
+    "title": "Remove Duplicate Letters",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "s = \"bcabc\"",
+        "output": "\"abc\""
+      },
+      {
+        "input": "s = \"cbacdcbc\"",
+        "output": "\"acdb\""
+      }
+    ]
+  },
+  "maximum-product-of-word-lengths": {
+    "title": "Maximum Product of Word Lengths",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "words = [\"abcw\",\"baz\",\"foo\",\"bar\",\"xtfn\",\"abcdef\"]",
+        "output": "16"
+      },
+      {
+        "input": "words = [\"a\",\"ab\",\"abc\",\"d\",\"cd\",\"bcd\",\"abcd\"]",
+        "output": "4"
+      },
+      {
+        "input": "words = [\"a\",\"aa\",\"aaa\",\"aaaa\"]",
+        "output": "0"
+      }
+    ]
+  },
+  "bulb-switcher": {
+    "title": "Bulb Switcher",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "n = 3",
+        "output": "1"
+      },
+      {
+        "input": "n = 0",
+        "output": "0"
+      },
+      {
+        "input": "n = 1",
+        "output": "1"
+      }
+    ]
+  },
+  "create-maximum-number": {
+    "title": "Create Maximum Number",
+    "difficulty": "Hard",
+    "testcases": [
+      {
+        "input": "nums1 = [3,4,6,5], nums2 = [9,1,2,5,8,3], k = 5",
+        "output": "[9,8,6,5,3]"
+      },
+      {
+        "input": "nums1 = [6,7], nums2 = [6,0,4], k = 5",
+        "output": "[6,7,6,0,4]"
+      },
+      {
+        "input": "nums1 = [3,9], nums2 = [8,9], k = 3",
+        "output": "[9,8,9]"
+      }
+    ]
+  },
+  "coin-change": {
+    "title": "Coin Change",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "coins = [1,2,5], amount = 11",
+        "output": "3"
+      },
+      {
+        "input": "coins = [2], amount = 3",
+        "output": "-1"
+      },
+      {
+        "input": "coins = [1], amount = 0",
+        "output": "0"
+      }
+    ]
+  },
+  "wiggle-sort-ii": {
+    "title": "Wiggle Sort II",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "nums = [1,5,1,1,6,4]",
+        "output": "[1,6,1,5,1,4]"
+      },
+      {
+        "input": "nums = [1,3,2,2,3,1]",
+        "output": "[2,3,1,3,1,2]"
+      }
+    ]
+  },
+  "power-of-three": {
+    "title": "Power of Three",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "n = 27",
+        "output": "true"
+      },
+      {
+        "input": "n = 0",
+        "output": "false"
+      },
+      {
+        "input": "n = -1",
+        "output": "false"
+      }
+    ]
+  },
+  "count-of-range-sum": {
+    "title": "Count of Range Sum",
+    "difficulty": "Hard",
+    "testcases": [
+      {
+        "input": "nums = [-2,5,-1], lower = -2, upper = 2",
+        "output": "3"
+      },
+      {
+        "input": "nums = [0], lower = 0, upper = 0",
+        "output": "1"
+      }
+    ]
+  },
+  "odd-even-linked-list": {
+    "title": "Odd Even Linked List",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "head = [1,2,3,4,5]",
+        "output": "[1,3,5,2,4]"
+      },
+      {
+        "input": "head = [2,1,3,5,6,4,7]",
+        "output": "[2,3,6,7,1,5,4]"
+      }
+    ]
+  },
+  "longest-increasing-path-in-a-matrix": {
+    "title": "Longest Increasing Path in a Matrix",
+    "difficulty": "Hard",
+    "testcases": [
+      {
+        "input": "matrix = [[9,9,4],[6,6,8],[2,1,1]]",
+        "output": "4"
+      },
+      {
+        "input": "matrix = [[3,4,5],[3,2,6],[2,2,1]]",
+        "output": "4"
+      },
+      {
+        "input": "matrix = [[1]]",
+        "output": "1"
+      }
+    ]
+  },
+  "patching-array": {
+    "title": "Patching Array",
+    "difficulty": "Hard",
+    "testcases": [
+      {
+        "input": "nums = [1,3], n = 6",
+        "output": "1"
+      },
+      {
+        "input": "nums = [1,5,10], n = 20",
+        "output": "2"
+      },
+      {
+        "input": "nums = [1,2,2], n = 5",
+        "output": "0"
+      }
+    ]
+  },
+  "verify-preorder-serialization-of-a-binary-tree": {
+    "title": "Verify Preorder Serialization of a Binary Tree",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "preorder = \"9,3,4,#,#,1,#,#,2,#,6,#,#\"",
+        "output": "true"
+      },
+      {
+        "input": "preorder = \"1,#\"",
+        "output": "false"
+      },
+      {
+        "input": "preorder = \"9,#,#,1\"",
+        "output": "false"
+      }
+    ]
+  },
+  "reconstruct-itinerary": {
+    "title": "Reconstruct Itinerary",
+    "difficulty": "Hard",
+    "testcases": [
+      {
+        "input": "tickets = [[\"MUC\",\"LHR\"],[\"JFK\",\"MUC\"],[\"SFO\",\"SJC\"],[\"LHR\",\"SFO\"]]",
+        "output": "[\"JFK\",\"MUC\",\"LHR\",\"SFO\",\"SJC\"]"
+      },
+      {
+        "input": "tickets = [[\"JFK\",\"SFO\"],[\"JFK\",\"ATL\"],[\"SFO\",\"ATL\"],[\"ATL\",\"JFK\"],[\"ATL\",\"SFO\"]]",
+        "output": "[\"JFK\",\"ATL\",\"JFK\",\"SFO\",\"ATL\",\"SFO\"]"
+      }
+    ]
+  },
+  "increasing-triplet-subsequence": {
+    "title": "Increasing Triplet Subsequence",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "nums = [1,2,3,4,5]",
+        "output": "true"
+      },
+      {
+        "input": "nums = [5,4,3,2,1]",
+        "output": "false"
+      },
+      {
+        "input": "nums = [2,1,5,0,4,6]",
+        "output": "true"
+      }
+    ]
+  },
+  "self-crossing": {
+    "title": "Self Crossing",
+    "difficulty": "Hard",
+    "testcases": [
+      {
+        "input": "distance = [2,1,1,2]",
+        "output": "true"
+      },
+      {
+        "input": "distance = [1,2,3,4]",
+        "output": "false"
+      },
+      {
+        "input": "distance = [1,1,1,2,1]",
+        "output": "true"
+      }
+    ]
+  },
+  "palindrome-pairs": {
+    "title": "Palindrome Pairs",
+    "difficulty": "Hard",
+    "testcases": [
+      {
+        "input": "words = [\"abcd\",\"dcba\",\"lls\",\"s\",\"sssll\"]",
+        "output": "[[0,1],[1,0],[3,2],[2,4]]"
+      },
+      {
+        "input": "words = [\"bat\",\"tab\",\"cat\"]",
+        "output": "[[0,1],[1,0]]"
+      },
+      {
+        "input": "words = [\"a\",\"\"]",
+        "output": "[[0,1],[1,0]]"
+      }
+    ]
+  },
+  "house-robber-iii": {
+    "title": "House Robber III",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "root = [3,2,3,null,3,null,1]",
+        "output": "7"
+      },
+      {
+        "input": "root = [3,4,5,1,3,null,1]",
+        "output": "9"
+      }
+    ]
+  },
+  "counting-bits": {
+    "title": "Counting Bits",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "n = 2",
+        "output": "[0,1,1]"
+      },
+      {
+        "input": "n = 5",
+        "output": "[0,1,1,2,1,2]"
+      }
+    ]
+  },
+  "flatten-nested-list-iterator": {
+    "title": "Flatten Nested List Iterator",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "initialize iterator with nestedList",
+        "output": "res = []"
+      },
+      {
+        "input": "nestedList = [[1,1],2,[1,1]]",
+        "output": "[1,1,2,1,1]"
+      },
+      {
+        "input": "nestedList = [1,[4,[6]]]",
+        "output": "[1,4,6]"
+      }
+    ]
+  },
+  "power-of-four": {
+    "title": "Power of Four",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "n = 16",
+        "output": "true"
+      },
+      {
+        "input": "n = 5",
+        "output": "false"
+      },
+      {
+        "input": "n = 1",
+        "output": "true"
+      }
+    ]
+  },
+  "integer-break": {
+    "title": "Integer Break",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "n = 2",
+        "output": "1"
+      },
+      {
+        "input": "n = 10",
+        "output": "36"
+      }
+    ]
+  },
+  "reverse-string": {
+    "title": "Reverse String",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "s = [\"h\",\"e\",\"l\",\"l\",\"o\"]",
+        "output": "[\"o\",\"l\",\"l\",\"e\",\"h\"]"
+      },
+      {
+        "input": "s = [\"H\",\"a\",\"n\",\"n\",\"a\",\"h\"]",
+        "output": "[\"h\",\"a\",\"n\",\"n\",\"a\",\"H\"]"
+      }
+    ]
+  },
+  "intersection-of-two-arrays": {
+    "title": "Intersection of Two Arrays",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "nums1 = [1,2,2,1], nums2 = [2,2]",
+        "output": "[2]"
+      },
+      {
+        "input": "nums1 = [4,9,5], nums2 = [9,4,9,8,4]",
+        "output": "[9,4]"
+      }
+    ]
+  },
+  "intersection-of-two-arrays-ii": {
+    "title": "Intersection of Two Arrays II",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "nums1 = [1,2,2,1], nums2 = [2,2]",
+        "output": "[2,2]"
+      },
+      {
+        "input": "nums1 = [4,9,5], nums2 = [9,4,9,8,4]",
+        "output": "[4,9]"
+      }
+    ]
+  },
+  "data-stream-as-disjoint-intervals": {
+    "title": "Data Stream as Disjoint Intervals",
+    "difficulty": "Hard",
+    "testcases": [
+      {
+        "input": "[\"SummaryRanges\", \"addNum\", \"getIntervals\", \"addNum\", \"getIntervals\", \"addNum\", \"getIntervals\", \"addNum\", \"getIntervals\", \"addNum\", \"getIntervals\"]\n[[], [1], [], [3], [], [7], [], [2], [], [6], []]",
+        "output": "[null, null, [[1, 1]], null, [[1, 1], [3, 3]], null, [[1, 1], [3, 3], [7, 7]], null, [[1, 3], [7, 7]], null, [[1, 3], [6, 7]]]\n\nExplanation\nSummaryRanges summaryRanges = new SummaryRanges();\nsummaryRanges.addNum(1);      // arr = [1]\nsummaryRanges.getIntervals(); // return [[1, 1]]\nsummaryRanges.addNum(3);      // arr = [1, 3]\nsummaryRanges.getIntervals(); // return [[1, 1], [3, 3]]\nsummaryRanges.addNum(7);      // arr = [1, 3, 7]\nsummaryRanges.getIntervals(); // return [[1, 1], [3, 3], [7, 7]]\nsummaryRanges.addNum(2);      // arr = [1, 2, 3, 7]\nsummaryRanges.getIntervals(); // return [[1, 3], [7, 7]]\nsummaryRanges.addNum(6);      // arr = [1, 2, 3, 6, 7]\nsummaryRanges.getIntervals(); // return [[1, 3], [6, 7]]"
+      }
+    ]
+  },
+  "russian-doll-envelopes": {
+    "title": "Russian Doll Envelopes",
+    "difficulty": "Hard",
+    "testcases": [
+      {
+        "input": "envelopes = [[5,4],[6,4],[6,7],[2,3]]",
+        "output": "3"
+      },
+      {
+        "input": "envelopes = [[1,1],[1,1],[1,1]]",
+        "output": "1"
+      }
+    ]
+  },
+  "design-twitter": {
+    "title": "Design Twitter",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "[\"Twitter\", \"postTweet\", \"getNewsFeed\", \"follow\", \"postTweet\", \"getNewsFeed\", \"unfollow\", \"getNewsFeed\"]\n[[], [1, 5], [1], [1, 2], [2, 6], [1], [1, 2], [1]]",
+        "output": "[null, null, [5], null, null, [6, 5], null, [5]]\n\nExplanation\nTwitter twitter = new Twitter();\ntwitter.postTweet(1, 5); // User 1 posts a new tweet (id = 5).\ntwitter.getNewsFeed(1);  // User 1's news feed should return a list with 1 tweet id -> [5]. return [5]\ntwitter.follow(1, 2);    // User 1 follows user 2.\ntwitter.postTweet(2, 6); // User 2 posts a new tweet (id = 6).\ntwitter.getNewsFeed(1);  // User 1's news feed should return a list with 2 tweet ids -> [6, 5]. Tweet id 6 should precede tweet id 5 because it is posted after tweet id 5.\ntwitter.unfollow(1, 2);  // User 1 unfollows user 2.\ntwitter.getNewsFeed(1);  // User 1's news feed should return a list with 1 tweet id -> [5], since user 1 is no longer following user 2."
+      }
+    ]
+  },
+  "count-numbers-with-unique-digits": {
+    "title": "Count Numbers with Unique Digits",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "n = 2",
+        "output": "91"
+      },
+      {
+        "input": "n = 0",
+        "output": "1"
+      }
+    ]
+  },
+  "max-sum-of-rectangle-no-larger-than-k": {
+    "title": "Max Sum of Rectangle No Larger Than K",
+    "difficulty": "Hard",
+    "testcases": [
+      {
+        "input": "matrix = [[1,0,1],[0,-2,3]], k = 2",
+        "output": "2"
+      },
+      {
+        "input": "matrix = [[2,2,-1]], k = 3",
+        "output": "3"
+      }
+    ]
+  },
+  "valid-perfect-square": {
+    "title": "Valid Perfect Square",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "num = 16",
+        "output": "true"
+      },
+      {
+        "input": "num = 14",
+        "output": "false"
+      }
+    ]
+  },
+  "largest-divisible-subset": {
+    "title": "Largest Divisible Subset",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "nums = [1,2,3]",
+        "output": "[1,2]"
+      },
+      {
+        "input": "nums = [1,2,4,8]",
+        "output": "[1,2,4,8]"
+      }
+    ]
+  },
+  "sum-of-two-integers": {
+    "title": "Sum of Two Integers",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "a = 1, b = 2",
+        "output": "3"
+      },
+      {
+        "input": "a = 2, b = 3",
+        "output": "5"
+      }
+    ]
+  },
+  "super-pow": {
+    "title": "Super Pow",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "a = 2, b = [3]",
+        "output": "8"
+      },
+      {
+        "input": "a = 2, b = [1,0]",
+        "output": "1024"
+      },
+      {
+        "input": "a = 1, b = [4,3,3,8,5,2]",
+        "output": "1"
+      }
+    ]
+  },
+  "find-k-pairs-with-smallest-sums": {
+    "title": "Find K Pairs with Smallest Sums",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "nums1 = [1,7,11], nums2 = [2,4,6], k = 3",
+        "output": "[[1,2],[1,4],[1,6]]"
+      },
+      {
+        "input": "nums1 = [1,1,2], nums2 = [1,2,3], k = 2",
+        "output": "[[1,1],[1,1]]"
+      }
+    ]
+  },
+  "guess-number-higher-or-lower": {
+    "title": "Guess Number Higher or Lower",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "n = 10, pick = 6",
+        "output": "6"
+      },
+      {
+        "input": "n = 1, pick = 1",
+        "output": "1"
+      },
+      {
+        "input": "n = 2, pick = 1",
+        "output": "1"
+      }
+    ]
+  },
+  "guess-number-higher-or-lower-ii": {
+    "title": "Guess Number Higher or Lower II",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "n = 10",
+        "output": "16"
+      },
+      {
+        "input": "n = 1",
+        "output": "0"
+      },
+      {
+        "input": "n = 2",
+        "output": "1"
+      }
+    ]
+  },
+  "wiggle-subsequence": {
+    "title": "Wiggle Subsequence",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "nums = [1,7,4,9,2,5]",
+        "output": "6"
+      },
+      {
+        "input": "nums = [1,17,5,10,13,15,10,5,16,8]",
+        "output": "7"
+      },
+      {
+        "input": "nums = [1,2,3,4,5,6,7,8,9]",
+        "output": "2"
+      }
+    ]
+  },
+  "combination-sum-iv": {
+    "title": "Combination Sum IV",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "nums = [1,2,3], target = 4",
+        "output": "7"
+      },
+      {
+        "input": "nums = [9], target = 3",
+        "output": "0"
+      }
+    ]
+  },
+  "kth-smallest-element-in-a-sorted-matrix": {
+    "title": "Kth Smallest Element in a Sorted Matrix",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "matrix = [[1,5,9],[10,11,13],[12,13,15]], k = 8",
+        "output": "13"
+      },
+      {
+        "input": "matrix = [[-5]], k = 1",
+        "output": "-5"
+      }
+    ]
+  },
+  "insert-delete-getrandom-o1": {
+    "title": "Insert Delete GetRandom O(1)",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "[\"RandomizedSet\", \"insert\", \"remove\", \"insert\", \"getRandom\", \"remove\", \"insert\", \"getRandom\"]\n[[], [1], [2], [2], [], [1], [2], []]",
+        "output": "[null, true, false, true, 2, true, false, 2]\n\nExplanation\nRandomizedSet randomizedSet = new RandomizedSet();\nrandomizedSet.insert(1); // Inserts 1 to the set. Returns true as 1 was inserted successfully.\nrandomizedSet.remove(2); // Returns false as 2 does not exist in the set.\nrandomizedSet.insert(2); // Inserts 2 to the set, returns true. Set now contains [1,2].\nrandomizedSet.getRandom(); // getRandom() should return either 1 or 2 randomly.\nrandomizedSet.remove(1); // Removes 1 from the set, returns true. Set now contains [2].\nrandomizedSet.insert(2); // 2 was already in the set, so return false.\nrandomizedSet.getRandom(); // Since 2 is the only number in the set, getRandom() will always return 2."
+      }
+    ]
+  },
+  "insert-delete-getrandom-o1-duplicates-allowed": {
+    "title": "Insert Delete GetRandom O(1) - Duplicates allowed",
+    "difficulty": "Hard",
+    "testcases": [
+      {
+        "input": "[\"RandomizedCollection\", \"insert\", \"insert\", \"insert\", \"getRandom\", \"remove\", \"getRandom\"]\n[[], [1], [1], [2], [], [1], []]",
+        "output": "[null, true, false, true, 2, true, 1]\n\nExplanation\nRandomizedCollection randomizedCollection = new RandomizedCollection();\nrandomizedCollection.insert(1);   // return true since the collection does not contain 1.\n                                  // Inserts 1 into the collection.\nrandomizedCollection.insert(1);   // return false since the collection contains 1.\n                                  // Inserts another 1 into the collection. Collection now contains [1,1].\nrandomizedCollection.insert(2);   // return true since the collection does not contain 2.\n                                  // Inserts 2 into the collection. Collection now contains [1,1,2].\nrandomizedCollection.getRandom(); // getRandom should:\n                                  // - return 1 with probability 2/3, or\n                                  // - return 2 with probability 1/3.\nrandomizedCollection.remove(1);   // return true since the collection contains 1.\n                                  // Removes 1 from the collection. Collection now contains [1,2].\nrandomizedCollection.getRandom(); // getRandom should return 1 or 2, both equally likely."
+      }
+    ]
+  },
+  "linked-list-random-node": {
+    "title": "Linked List Random Node",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "[\"Solution\", \"getRandom\", \"getRandom\", \"getRandom\", \"getRandom\", \"getRandom\"]\n[[[1, 2, 3]], [], [], [], [], []]",
+        "output": "[null, 1, 3, 2, 2, 3]\n\nExplanation\nSolution solution = new Solution([1, 2, 3]);\nsolution.getRandom(); // return 1\nsolution.getRandom(); // return 3\nsolution.getRandom(); // return 2\nsolution.getRandom(); // return 2\nsolution.getRandom(); // return 3\n// getRandom() should return either 1, 2, or 3 randomly. Each element should have equal probability of returning."
+      }
+    ]
+  },
+  "ransom-note": {
+    "title": "Ransom Note",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "ransomNote = \"a\", magazine = \"b\"",
+        "output": "false"
+      },
+      {
+        "input": "ransomNote = \"aa\", magazine = \"ab\"",
+        "output": "false"
+      },
+      {
+        "input": "ransomNote = \"aa\", magazine = \"aab\"",
+        "output": "true"
+      }
+    ]
+  },
+  "shuffle-an-array": {
+    "title": "Shuffle an Array",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "[\"Solution\", \"shuffle\", \"reset\", \"shuffle\"]\n[[[1, 2, 3]], [], [], []]",
+        "output": "[null, [3, 1, 2], [1, 2, 3], [1, 3, 2]]\n\nExplanation\nSolution solution = new Solution([1, 2, 3]);\nsolution.shuffle();    // Shuffle the array [1,2,3] and return its result.\n                       // Any permutation of [1,2,3] must be equally likely to be returned.\n                       // Example: return [3, 1, 2]\nsolution.reset();      // Resets the array back to its original configuration [1,2,3]. Return [1, 2, 3]\nsolution.shuffle();    // Returns the random shuffling of array [1,2,3]. Example: return [1, 3, 2]"
+      }
+    ]
+  },
+  "mini-parser": {
+    "title": "Mini Parser",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "s = \"324\"",
+        "output": "324"
+      },
+      {
+        "input": "s = \"[123,[456,[789]]]\"",
+        "output": "[123,[456,[789]]]"
+      }
+    ]
+  },
+  "lexicographical-numbers": {
+    "title": "Lexicographical Numbers",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "n = 13",
+        "output": "[1,10,11,12,13,2,3,4,5,6,7,8,9]"
+      },
+      {
+        "input": "n = 2",
+        "output": "[1,2]"
+      }
+    ]
+  },
+  "longest-absolute-file-path": {
+    "title": "Longest Absolute File Path",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "dir",
+        "output": "⟶ subdir1"
+      },
+      {
+        "input": "input = \"dir\\n\\tsubdir1\\n\\tsubdir2\\n\\t\\tfile.ext\"",
+        "output": "20"
+      },
+      {
+        "input": "input = \"dir\\n\\tsubdir1\\n\\t\\tfile1.ext\\n\\t\\tsubsubdir1\\n\\tsubdir2\\n\\t\\tsubsubdir2\\n\\t\\t\\tfile2.ext\"",
+        "output": "32"
+      },
+      {
+        "input": "input = \"a\"",
+        "output": "0"
+      }
+    ]
+  },
+  "find-the-difference": {
+    "title": "Find the Difference",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "s = \"abcd\", t = \"abcde\"",
+        "output": "\"e\""
+      },
+      {
+        "input": "s = \"\", t = \"y\"",
+        "output": "\"y\""
+      }
+    ]
+  },
+  "elimination-game": {
+    "title": "Elimination Game",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "n = 9",
+        "output": "6"
+      },
+      {
+        "input": "n = 1",
+        "output": "1"
+      }
+    ]
+  },
+  "perfect-rectangle": {
+    "title": "Perfect Rectangle",
+    "difficulty": "Hard",
+    "testcases": [
+      {
+        "input": "rectangles = [[1,1,3,3],[3,1,4,2],[3,2,4,4],[1,3,2,4],[2,3,3,4]]",
+        "output": "true"
+      },
+      {
+        "input": "rectangles = [[1,1,2,3],[1,3,2,4],[3,1,4,2],[3,2,4,4]]",
+        "output": "false"
+      },
+      {
+        "input": "rectangles = [[1,1,3,3],[3,1,4,2],[1,3,2,4],[2,2,4,4]]",
+        "output": "false"
+      }
+    ]
+  },
+  "is-subsequence": {
+    "title": "Is Subsequence",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "s = \"abc\", t = \"ahbgdc\"",
+        "output": "true"
+      },
+      {
+        "input": "s = \"axc\", t = \"ahbgdc\"",
+        "output": "false"
+      }
+    ]
+  },
+  "utf-8-validation": {
+    "title": "UTF-8 Validation",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "Number of Bytes   |        UTF-8 Octet Sequence",
+        "output": "|              (binary)"
+      },
+      {
+        "input": "data = [197,130,1]",
+        "output": "true"
+      },
+      {
+        "input": "data = [235,140,4]",
+        "output": "false"
+      }
+    ]
+  },
+  "decode-string": {
+    "title": "Decode String",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "s = \"3[a]2[bc]\"",
+        "output": "\"aaabcbc\""
+      },
+      {
+        "input": "s = \"3[a2[c]]\"",
+        "output": "\"accaccacc\""
+      },
+      {
+        "input": "s = \"2[abc]3[cd]ef\"",
+        "output": "\"abcabccdcdcdef\""
+      }
+    ]
+  },
+  "longest-substring-with-at-least-k-repeating-characters": {
+    "title": "Longest Substring with At Least K Repeating Characters",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "s = \"aaabb\", k = 3",
+        "output": "3"
+      },
+      {
+        "input": "s = \"ababbc\", k = 2",
+        "output": "5"
+      }
+    ]
+  },
+  "rotate-function": {
+    "title": "Rotate Function",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "nums = [4,3,2,6]",
+        "output": "26"
+      },
+      {
+        "input": "nums = [100]",
+        "output": "0"
+      }
+    ]
+  },
+  "integer-replacement": {
+    "title": "Integer Replacement",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "n = 8",
+        "output": "3"
+      },
+      {
+        "input": "n = 7",
+        "output": "4"
+      },
+      {
+        "input": "n = 4",
+        "output": "2"
+      }
+    ]
+  },
+  "random-pick-index": {
+    "title": "Random Pick Index",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "[\"Solution\", \"pick\", \"pick\", \"pick\"]\n[[[1, 2, 3, 3, 3]], [3], [1], [3]]",
+        "output": "[null, 4, 0, 2]\n\nExplanation\nSolution solution = new Solution([1, 2, 3, 3, 3]);\nsolution.pick(3); // It should return either index 2, 3, or 4 randomly. Each index should have equal probability of returning.\nsolution.pick(1); // It should return 0. Since in the array only nums[0] is equal to 1.\nsolution.pick(3); // It should return either index 2, 3, or 4 randomly. Each index should have equal probability of returning."
+      }
+    ]
+  },
+  "evaluate-division": {
+    "title": "Evaluate Division",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "equations = [[\"a\",\"b\"],[\"b\",\"c\"]], values = [2.0,3.0], queries = [[\"a\",\"c\"],[\"b\",\"a\"],[\"a\",\"e\"],[\"a\",\"a\"],[\"x\",\"x\"]]",
+        "output": "[6.00000,0.50000,-1.00000,1.00000,-1.00000]"
+      },
+      {
+        "input": "equations = [[\"a\",\"b\"],[\"b\",\"c\"],[\"bc\",\"cd\"]], values = [1.5,2.5,5.0], queries = [[\"a\",\"c\"],[\"c\",\"b\"],[\"bc\",\"cd\"],[\"cd\",\"bc\"]]",
+        "output": "[3.75000,0.40000,5.00000,0.20000]"
+      },
+      {
+        "input": "equations = [[\"a\",\"b\"]], values = [0.5], queries = [[\"a\",\"b\"],[\"b\",\"a\"],[\"a\",\"c\"],[\"x\",\"y\"]]",
+        "output": "[0.50000,2.00000,-1.00000,-1.00000]"
+      }
+    ]
+  },
+  "nth-digit": {
+    "title": "Nth Digit",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "n = 3",
+        "output": "3"
+      },
+      {
+        "input": "n = 11",
+        "output": "0"
+      }
+    ]
+  },
+  "binary-watch": {
+    "title": "Binary Watch",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "turnedOn = 1",
+        "output": "[\"0:01\",\"0:02\",\"0:04\",\"0:08\",\"0:16\",\"0:32\",\"1:00\",\"2:00\",\"4:00\",\"8:00\"]"
+      },
+      {
+        "input": "turnedOn = 9",
+        "output": "[]"
+      }
+    ]
+  },
+  "remove-k-digits": {
+    "title": "Remove K Digits",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "num = \"1432219\", k = 3",
+        "output": "\"1219\""
+      },
+      {
+        "input": "num = \"10200\", k = 1",
+        "output": "\"200\""
+      },
+      {
+        "input": "num = \"10\", k = 2",
+        "output": "\"0\""
+      }
+    ]
+  },
+  "frog-jump": {
+    "title": "Frog Jump",
+    "difficulty": "Hard",
+    "testcases": [
+      {
+        "input": "stones = [0,1,3,5,6,8,12,17]",
+        "output": "true"
+      },
+      {
+        "input": "stones = [0,1,2,3,4,8,9,11]",
+        "output": "false"
+      }
+    ]
+  },
+  "sum-of-left-leaves": {
+    "title": "Sum of Left Leaves",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "root = [3,9,20,null,null,15,7]",
+        "output": "24"
+      },
+      {
+        "input": "root = [1]",
+        "output": "0"
+      }
+    ]
+  },
+  "convert-a-number-to-hexadecimal": {
+    "title": "Convert a Number to Hexadecimal",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "num = 26",
+        "output": "\"1a\""
+      },
+      {
+        "input": "num = -1",
+        "output": "\"ffffffff\""
+      }
+    ]
+  },
+  "queue-reconstruction-by-height": {
+    "title": "Queue Reconstruction by Height",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "people = [[7,0],[4,4],[7,1],[5,0],[6,1],[5,2]]",
+        "output": "[[5,0],[7,0],[5,2],[6,1],[4,4],[7,1]]"
+      },
+      {
+        "input": "people = [[6,0],[5,0],[4,0],[3,2],[2,2],[1,4]]",
+        "output": "[[4,0],[5,0],[2,2],[3,2],[1,4],[6,0]]"
+      }
+    ]
+  },
+  "trapping-rain-water-ii": {
+    "title": "Trapping Rain Water II",
+    "difficulty": "Hard",
+    "testcases": [
+      {
+        "input": "heightMap = [[1,4,3,1,3,2],[3,2,1,3,2,4],[2,3,3,2,3,1]]",
+        "output": "4"
+      },
+      {
+        "input": "heightMap = [[3,3,3,3,3],[3,2,2,2,3],[3,2,1,2,3],[3,2,2,2,3],[3,3,3,3,3]]",
+        "output": "10"
+      }
+    ]
+  },
+  "longest-palindrome": {
+    "title": "Longest Palindrome",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "s = \"abccccdd\"",
+        "output": "7"
+      },
+      {
+        "input": "s = \"a\"",
+        "output": "1"
+      }
+    ]
+  },
+  "split-array-largest-sum": {
+    "title": "Split Array Largest Sum",
+    "difficulty": "Hard",
+    "testcases": [
+      {
+        "input": "nums = [7,2,5,10,8], k = 2",
+        "output": "18"
+      },
+      {
+        "input": "nums = [1,2,3,4,5], k = 2",
+        "output": "9"
+      }
+    ]
+  },
+  "fizz-buzz": {
+    "title": "Fizz Buzz",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "n = 3",
+        "output": "[\"1\",\"2\",\"Fizz\"]"
+      },
+      {
+        "input": "n = 5",
+        "output": "[\"1\",\"2\",\"Fizz\",\"4\",\"Buzz\"]"
+      },
+      {
+        "input": "n = 15",
+        "output": "[\"1\",\"2\",\"Fizz\",\"4\",\"Buzz\",\"Fizz\",\"7\",\"8\",\"Fizz\",\"Buzz\",\"11\",\"Fizz\",\"13\",\"14\",\"FizzBuzz\"]"
+      }
+    ]
+  },
+  "arithmetic-slices": {
+    "title": "Arithmetic Slices",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "nums = [1,2,3,4]",
+        "output": "3"
+      },
+      {
+        "input": "nums = [1]",
+        "output": "0"
+      }
+    ]
+  },
+  "third-maximum-number": {
+    "title": "Third Maximum Number",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "nums = [3,2,1]",
+        "output": "1"
+      },
+      {
+        "input": "nums = [1,2]",
+        "output": "2"
+      },
+      {
+        "input": "nums = [2,2,3,1]",
+        "output": "1"
+      }
+    ]
+  },
+  "add-strings": {
+    "title": "Add Strings",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "num1 = \"11\", num2 = \"123\"",
+        "output": "\"134\""
+      },
+      {
+        "input": "num1 = \"456\", num2 = \"77\"",
+        "output": "\"533\""
+      },
+      {
+        "input": "num1 = \"0\", num2 = \"0\"",
+        "output": "\"0\""
+      }
+    ]
+  },
+  "partition-equal-subset-sum": {
+    "title": "Partition Equal Subset Sum",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "nums = [1,5,11,5]",
+        "output": "true"
+      },
+      {
+        "input": "nums = [1,2,3,5]",
+        "output": "false"
+      }
+    ]
+  },
+  "pacific-atlantic-water-flow": {
+    "title": "Pacific Atlantic Water Flow",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "heights = [[1,2,2,3,5],[3,2,3,4,4],[2,4,5,3,1],[6,7,1,4,5],[5,1,1,2,4]]",
+        "output": "[[0,4],[1,3],[1,4],[2,2],[3,0],[3,1],[4,0]]"
+      },
+      {
+        "input": "heights = [[1]]",
+        "output": "[[0,0]]"
+      }
+    ]
+  },
+  "battleships-in-a-board": {
+    "title": "Battleships in a Board",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "board = [[\"X\",\".\",\".\",\"X\"],[\".\",\".\",\".\",\"X\"],[\".\",\".\",\".\",\"X\"]]",
+        "output": "2"
+      },
+      {
+        "input": "board = [[\".\"]]",
+        "output": "0"
+      }
+    ]
+  },
+  "strong-password-checker": {
+    "title": "Strong Password Checker",
+    "difficulty": "Hard",
+    "testcases": [
+      {
+        "input": "password = \"a\"",
+        "output": "5"
+      },
+      {
+        "input": "password = \"aA1\"",
+        "output": "3"
+      },
+      {
+        "input": "password = \"1337C0d3\"",
+        "output": "0"
+      }
+    ]
+  },
+  "maximum-xor-of-two-numbers-in-an-array": {
+    "title": "Maximum XOR of Two Numbers in an Array",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "nums = [3,10,5,25,2,8]",
+        "output": "28"
+      },
+      {
+        "input": "nums = [14,70,53,83,49,91,36,80,92,51,66,70]",
+        "output": "127"
+      }
+    ]
+  },
+  "reconstruct-original-digits-from-english": {
+    "title": "Reconstruct Original Digits from English",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "s = \"owoztneoer\"",
+        "output": "\"012\""
+      },
+      {
+        "input": "s = \"fviefuro\"",
+        "output": "\"45\""
+      }
+    ]
+  },
+  "longest-repeating-character-replacement": {
+    "title": "Longest Repeating Character Replacement",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "s = \"ABAB\", k = 2",
+        "output": "4"
+      },
+      {
+        "input": "s = \"AABABBA\", k = 1",
+        "output": "4"
+      }
+    ]
+  },
+  "construct-quad-tree": {
+    "title": "Construct Quad Tree",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "class Node {",
+        "output": "public boolean val;"
+      },
+      {
+        "input": "grid = [[0,1],[1,0]]",
+        "output": "[[0,1],[1,0],[1,1],[1,1],[1,0]]"
+      },
+      {
+        "input": "grid = [[1,1,1,1,0,0,0,0],[1,1,1,1,0,0,0,0],[1,1,1,1,1,1,1,1],[1,1,1,1,1,1,1,1],[1,1,1,1,0,0,0,0],[1,1,1,1,0,0,0,0],[1,1,1,1,0,0,0,0],[1,1,1,1,0,0,0,0]]",
+        "output": "[[0,1],[1,1],[0,1],[1,1],[1,0],null,null,null,null,[1,0],[1,0],[1,1],[1,1]]"
+      }
+    ]
+  },
+  "n-ary-tree-level-order-traversal": {
+    "title": "N-ary Tree Level Order Traversal",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "root = [1,null,3,2,4,null,5,6]",
+        "output": "[[1],[3,2,4],[5,6]]"
+      },
+      {
+        "input": "root = [1,null,2,3,4,5,null,null,6,7,null,8,null,9,10,null,null,11,null,12,null,13,null,null,14]",
+        "output": "[[1],[2,3,4,5],[6,7,8,9,10],[11,12,13],[14]]"
+      }
+    ]
+  },
+  "flatten-a-multilevel-doubly-linked-list": {
+    "title": "Flatten a Multilevel Doubly Linked List",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "head = [1,2,3,4,5,6,null,null,null,7,8,9,10,null,null,11,12]",
+        "output": "[1,2,3,7,8,11,12,9,10,4,5,6]"
+      },
+      {
+        "input": "head = [1,2,null,3]",
+        "output": "[1,3,2]"
+      },
+      {
+        "input": "head = []",
+        "output": "[]"
+      },
+      {
+        "input": "1---2---3---4---5---6--NULL",
+        "output": "|"
+      },
+      {
+        "input": "[1,2,3,4,5,6,null]",
+        "output": "[7,8,9,10,null]"
+      },
+      {
+        "input": "[1,    2,    3, 4, 5, 6, null]",
+        "output": "|"
+      }
+    ]
+  },
+  "all-oone-data-structure": {
+    "title": "All O`one Data Structure",
+    "difficulty": "Hard",
+    "testcases": [
+      {
+        "input": "[\"AllOne\", \"inc\", \"inc\", \"getMaxKey\", \"getMinKey\", \"inc\", \"getMaxKey\", \"getMinKey\"]\n[[], [\"hello\"], [\"hello\"], [], [], [\"leet\"], [], []]",
+        "output": "[null, null, null, \"hello\", \"hello\", null, \"hello\", \"leet\"]\n\nExplanation\nAllOne allOne = new AllOne();\nallOne.inc(\"hello\");\nallOne.inc(\"hello\");\nallOne.getMaxKey(); // return \"hello\"\nallOne.getMinKey(); // return \"hello\"\nallOne.inc(\"leet\");\nallOne.getMaxKey(); // return \"hello\"\nallOne.getMinKey(); // return \"leet\""
+      }
+    ]
+  },
+  "minimum-genetic-mutation": {
+    "title": "Minimum Genetic Mutation",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "startGene = \"AACCGGTT\", endGene = \"AACCGGTA\", bank = [\"AACCGGTA\"]",
+        "output": "1"
+      },
+      {
+        "input": "startGene = \"AACCGGTT\", endGene = \"AAACGGTA\", bank = [\"AACCGGTA\",\"AACCGCTA\",\"AAACGGTA\"]",
+        "output": "2"
+      }
+    ]
+  },
+  "number-of-segments-in-a-string": {
+    "title": "Number of Segments in a String",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "s = \"Hello, my name is John\"",
+        "output": "5"
+      },
+      {
+        "input": "s = \"Hello\"",
+        "output": "1"
+      }
+    ]
+  },
+  "non-overlapping-intervals": {
+    "title": "Non-overlapping Intervals",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "intervals = [[1,2],[2,3],[3,4],[1,3]]",
+        "output": "1"
+      },
+      {
+        "input": "intervals = [[1,2],[1,2],[1,2]]",
+        "output": "2"
+      },
+      {
+        "input": "intervals = [[1,2],[2,3]]",
+        "output": "0"
+      }
+    ]
+  },
+  "find-right-interval": {
+    "title": "Find Right Interval",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "intervals = [[1,2]]",
+        "output": "[-1]"
+      },
+      {
+        "input": "intervals = [[3,4],[2,3],[1,2]]",
+        "output": "[-1,0,1]"
+      },
+      {
+        "input": "intervals = [[1,4],[2,3],[3,4]]",
+        "output": "[-1,2,-1]"
+      }
+    ]
+  },
+  "path-sum-iii": {
+    "title": "Path Sum III",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "root = [10,5,-3,3,2,null,11,3,-2,null,1], targetSum = 8",
+        "output": "3"
+      },
+      {
+        "input": "root = [5,4,8,11,null,13,4,7,2,null,null,5,1], targetSum = 22",
+        "output": "3"
+      }
+    ]
+  },
+  "find-all-anagrams-in-a-string": {
+    "title": "Find All Anagrams in a String",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "s = \"cbaebabacd\", p = \"abc\"",
+        "output": "[0,6]"
+      },
+      {
+        "input": "s = \"abab\", p = \"ab\"",
+        "output": "[0,1,2]"
+      }
+    ]
+  },
+  "k-th-smallest-in-lexicographical-order": {
+    "title": "K-th Smallest in Lexicographical Order",
+    "difficulty": "Hard",
+    "testcases": [
+      {
+        "input": "n = 13, k = 2",
+        "output": "10"
+      },
+      {
+        "input": "n = 1, k = 1",
+        "output": "1"
+      }
+    ]
+  },
+  "arranging-coins": {
+    "title": "Arranging Coins",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "n = 5",
+        "output": "2"
+      },
+      {
+        "input": "n = 8",
+        "output": "3"
+      }
+    ]
+  },
+  "find-all-duplicates-in-an-array": {
+    "title": "Find All Duplicates in an Array",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "nums = [4,3,2,7,8,2,3,1]",
+        "output": "[2,3]"
+      },
+      {
+        "input": "nums = [1,1,2]",
+        "output": "[1]"
+      },
+      {
+        "input": "nums = [1]",
+        "output": "[]"
+      }
+    ]
+  },
+  "string-compression": {
+    "title": "String Compression",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "chars = [\"a\",\"a\",\"b\",\"b\",\"c\",\"c\",\"c\"]",
+        "output": "6"
+      },
+      {
+        "input": "chars = [\"a\"]",
+        "output": "1"
+      },
+      {
+        "input": "chars = [\"a\",\"b\",\"b\",\"b\",\"b\",\"b\",\"b\",\"b\",\"b\",\"b\",\"b\",\"b\",\"b\"]",
+        "output": "4"
+      }
+    ]
+  },
+  "add-two-numbers-ii": {
+    "title": "Add Two Numbers II",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "l1 = [7,2,4,3], l2 = [5,6,4]",
+        "output": "[7,8,0,7]"
+      },
+      {
+        "input": "l1 = [2,4,3], l2 = [5,6,4]",
+        "output": "[8,0,7]"
+      },
+      {
+        "input": "l1 = [0], l2 = [0]",
+        "output": "[0]"
+      }
+    ]
+  },
+  "arithmetic-slices-ii-subsequence": {
+    "title": "Arithmetic Slices II - Subsequence",
+    "difficulty": "Hard",
+    "testcases": [
+      {
+        "input": "nums = [2,4,6,8,10]",
+        "output": "7"
+      },
+      {
+        "input": "nums = [7,7,7,7,7]",
+        "output": "16"
+      }
+    ]
+  },
+  "number-of-boomerangs": {
+    "title": "Number of Boomerangs",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "points = [[0,0],[1,0],[2,0]]",
+        "output": "2"
+      },
+      {
+        "input": "points = [[1,1],[2,2],[3,3]]",
+        "output": "2"
+      },
+      {
+        "input": "points = [[1,1]]",
+        "output": "0"
+      }
+    ]
+  },
+  "find-all-numbers-disappeared-in-an-array": {
+    "title": "Find All Numbers Disappeared in an Array",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "nums = [4,3,2,7,8,2,3,1]",
+        "output": "[5,6]"
+      },
+      {
+        "input": "nums = [1,1]",
+        "output": "[2]"
+      }
+    ]
+  },
+  "serialize-and-deserialize-bst": {
+    "title": "Serialize and Deserialize BST",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "root = [2,1,3]",
+        "output": "[2,1,3]"
+      },
+      {
+        "input": "root = []",
+        "output": "[]"
+      }
+    ]
+  },
+  "delete-node-in-a-bst": {
+    "title": "Delete Node in a BST",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "root = [5,3,6,2,4,null,7], key = 3",
+        "output": "[5,4,6,2,null,null,7]"
+      },
+      {
+        "input": "root = [5,3,6,2,4,null,7], key = 0",
+        "output": "[5,3,6,2,4,null,7]"
+      },
+      {
+        "input": "root = [], key = 0",
+        "output": "[]"
+      }
+    ]
+  },
+  "sort-characters-by-frequency": {
+    "title": "Sort Characters By Frequency",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "s = \"tree\"",
+        "output": "\"eert\""
+      },
+      {
+        "input": "s = \"cccaaa\"",
+        "output": "\"aaaccc\""
+      },
+      {
+        "input": "s = \"Aabb\"",
+        "output": "\"bbAa\""
+      }
+    ]
+  },
+  "minimum-number-of-arrows-to-burst-balloons": {
+    "title": "Minimum Number of Arrows to Burst Balloons",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "points = [[10,16],[2,8],[1,6],[7,12]]",
+        "output": "2"
+      },
+      {
+        "input": "points = [[1,2],[3,4],[5,6],[7,8]]",
+        "output": "4"
+      },
+      {
+        "input": "points = [[1,2],[2,3],[3,4],[4,5]]",
+        "output": "2"
+      }
+    ]
+  },
+  "minimum-moves-to-equal-array-elements": {
+    "title": "Minimum Moves to Equal Array Elements",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "nums = [1,2,3]",
+        "output": "3"
+      },
+      {
+        "input": "nums = [1,1,1]",
+        "output": "0"
+      }
+    ]
+  },
+  "4sum-ii": {
+    "title": "4Sum II",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "nums1 = [1,2], nums2 = [-2,-1], nums3 = [-1,2], nums4 = [0,2]",
+        "output": "2"
+      },
+      {
+        "input": "nums1 = [0], nums2 = [0], nums3 = [0], nums4 = [0]",
+        "output": "1"
+      }
+    ]
+  },
+  "assign-cookies": {
+    "title": "Assign Cookies",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "g = [1,2,3], s = [1,1]",
+        "output": "1"
+      },
+      {
+        "input": "g = [1,2], s = [1,2,3]",
+        "output": "2"
+      }
+    ]
+  },
+  "132-pattern": {
+    "title": "132 Pattern",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "nums = [1,2,3,4]",
+        "output": "false"
+      },
+      {
+        "input": "nums = [3,1,4,2]",
+        "output": "true"
+      },
+      {
+        "input": "nums = [-1,3,2,0]",
+        "output": "true"
+      }
+    ]
+  },
+  "circular-array-loop": {
+    "title": "Circular Array Loop",
+    "difficulty": "Medium",
+    "testcases": [
+      {
+        "input": "nums = [2,-1,1,2,2]",
+        "output": "true"
+      },
+      {
+        "input": "nums = [-1,-2,-3,-4,-5,6]",
+        "output": "false"
+      },
+      {
+        "input": "nums = [1,-1,5,1,4]",
+        "output": "true"
+      }
+    ]
+  },
+  "poor-pigs": {
+    "title": "Poor Pigs",
+    "difficulty": "Hard",
+    "testcases": [
+      {
+        "input": "buckets = 4, minutesToDie = 15, minutesToTest = 15",
+        "output": "2"
+      },
+      {
+        "input": "buckets = 4, minutesToDie = 15, minutesToTest = 30",
+        "output": "2"
+      }
+    ]
+  },
+  "repeated-substring-pattern": {
+    "title": "Repeated Substring Pattern",
+    "difficulty": "Easy",
+    "testcases": [
+      {
+        "input": "s = \"abab\"",
+        "output": "true"
+      },
+      {
+        "input": "s = \"aba\"",
+        "output": "false"
+      },
+      {
+        "input": "s = \"abcabcabcabc\"",
+        "output": "true"
+      }
+    ]
+  }
+}
